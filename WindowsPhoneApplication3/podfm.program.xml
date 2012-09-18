@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:podfm="http://podfm.ru/RSS/extension" version="2.0">
+            <channel>
+<atom:link href="http://podfm.ru/rss/programs/rss.xml" type="application/rss+xml" rel="self">
+</atom:link>
+<itunes:owner>
+<itunes:email>info@podfm.ru</itunes:email>
+</itunes:owner>
+<language>ru-ru</language>
+<itunes:explicit>no</itunes:explicit>
+<image>
+<url>http://files.podfm.ru/img/top_logo.png</url>
+<title>Podfm.ru</title>
+<link>http://podfm.ru</link>
+</image>
+<itunes:image href="http://podfm.ru">
+</itunes:image>
+<title>Программы PodFM.ru</title>
+<description>Программы PodFM.ru</description>
+<link>http://podfm.ru//programs/</link>
+<itunes:summary>Программы PodFM.ru</itunes:summary>
+<itunes:author>
+</itunes:author>
+<item>
+<title shortTitle="Понедельник -  день тяжёлый">Понедельник —  день тяжелый</title>
+<description shortDescription="Программа о тяжелой музыке.">&lt;img src="http://file2.podfm.ru/29/296/2969/29693/images/lentava_34722_1_6.jpg" align=left hspace="10" &gt;Программа о тяжелой музыке. Дмитрий Трунов. Радио ФОНТАНКА ФМ.</description>
+<guid>http://heavymonday.podfm.ru/</guid>
+<pubDate>Mon, 03 Sep 2012 09:56:23 +0400</pubDate>
+<link>http://heavymonday.podfm.ru/</link>
+<podfm:linkrss>http://heavymonday.podfm.ru/rss/rss.xml</podfm:linkrss>
+<category>Музыка</category>
+</item>
+<item>
+<title shortTitle="Пещера (Марина и Сергей Дяченко)">Пещера (Марина и Сергей Дяченко)</title>
+<description shortDescription="Лучший роман фантастов Марины и Сергея Дяченко.">&lt;img src="http://file2.podfm.ru/30/306/3063/30639/images/lentava_35925_1_98.jpg" align=left hspace="10" &gt;Один из лучших романов украинской четы фантастов Марины и Сергея Дяченко уже 6 раз издавался на бумаге - и теперь выходит в качестве аудиокниги.&lt;br /&gt; &lt;br /&gt; "Пещера" - это тонкая притча в стиле городского фэнтези. Герои книги живут в двух параллельных мирах: дневной тих и благополучен - за счет ночного кошмара "Пещеры", в котором скучные обыватели в буквальном смысле делятся на хищников и травоядных...</description>
+<guid>http://peschera.podfm.ru/</guid>
+<pubDate>Mon, 03 Sep 2012 09:56:23 +0400</pubDate>
+<link>http://peschera.podfm.ru/</link>
+<podfm:linkrss>http://peschera.podfm.ru/rss/rss.xml</podfm:linkrss>
+<category>Аудиокниги</category>
+</item>
+<item>
+<title shortTitle="ТриГада Шоу">ТриГада Шоу</title>
+<description shortDescription="Боевые скорпионы разговорного жанра, которым тесно в рамках Fm-диапазона.">&lt;img src="http://file2.podfm.ru/9/96/961/9618/images/lentava_35930_1_22.jpg" align=left hspace="10" &gt;Снова в моде нахрапистые беспринципные циники и эстеты! "Три гада Шоу" - боевые скорпионы разговорного жанра, которым тесно в рамках Fm-диапазона. Важные, дурацкие, пикантные темы  в студии Podfm.ru обсуждают Таня Нестерова ("Ретро-fm"), Денис Красин (радио "Рекорд") и Алексей Акопов ("Акопов-fm").&lt;br /&gt; &lt;br /&gt; Наша группа &lt;A HREF="http://vk.com/trigadashow" rel=nofollow target=_blank&gt;Вконтакте&lt;/A&gt;</description>
+<guid>http://trigada.podfm.ru/</guid>
+<pubDate>Mon, 03 Sep 2012 09:56:23 +0400</pubDate>
+<link>http://trigada.podfm.ru/</link>
+<podfm:linkrss>http://trigada.podfm.ru/rss/rss.xml</podfm:linkrss>
+<category>Развлечения</category>
+</item>
+<item>
+<title shortTitle="Школа молодых отцов">Школа молодых отцов</title>
+<description shortDescription="Это должен знать каждый!">&lt;img src="http://file2.podfm.ru/14/141/1416/14165/images/lentava_36649_1_25.jpg" align=left hspace="10" &gt;Новый проект утреннего шоу "Программа П". В эфир приходят гости и рассказывают о тех проблемах, с которыми могут столкнуться молодые родители. Куда отвезти ребенка поиграть, что предложить ему почитать, какие музеи могут быть интересны, какими средствами лечить заболевания?</description>
+<guid>http://school.podfm.ru/</guid>
+<pubDate>Mon, 03 Sep 2012 09:56:23 +0400</pubDate>
+<link>http://school.podfm.ru/</link>
+<podfm:linkrss>http://school.podfm.ru/rss/rss.xml</podfm:linkrss>
+<category>Хобби и увлечения </category>
+</item>
+<item>
+<title shortTitle="Перченый Питер">Перченый Питер</title>
+<description shortDescription="Аудиогид по Санкт-Петербургу.">&lt;img src="http://file2.podfm.ru/31/317/3172/31725/images/lentava_36974_1_2.jpg" align=left hspace="10" &gt;Есть экскурсии для туристов. Есть для людей. Я вожу экскурсии для людей. &lt;br /&gt; Потому что я человеколюбивый гид, который не станет пичкать вас терминами и датами. Я представлю личности, а не безликие фамилии. &lt;br /&gt; Я отдаю себе отчет в том, что многие не знают, кем Александр III приходился Александру I, почему Елизавета Петровна – барокко, а Екатерина II – классицизм, поэтому не стесняюсь рассказывать про основные признаки этих стилей. &lt;br /&gt; В моих аудиогидах искусствоведческая информация соседствует с городскими легендами, а исторические факты с их трактовкой, порой довольно неожиданной. &lt;br /&gt; Есть те, кто продают колбасу. Есть те, кто продают Мерседесы. Я продаю впечатления и знания. Именно это вы найдете в серии аудигидов "Перченый Питер". &lt;br /&gt; Все подробности в моей группе &lt;a rel="nofollow" href="http://vk.com/spbtrip" target="_blank"&gt;http://vk.com/spbtrip&lt;/a&gt;</description>
+<guid>http://piter.podfm.ru/</guid>
+<pubDate>Mon, 03 Sep 2012 09:56:23 +0400</pubDate>
+<link>http://piter.podfm.ru/</link>
+<podfm:linkrss>http://piter.podfm.ru/rss/rss.xml</podfm:linkrss>
+<category>Аудиогиды</category>
+</item>
+<item>
+<title shortTitle="Geek-picnic">Geek-picnic в Петербурге</title>
+<description shortDescription="Лучшие лекции с IT-фестиваля.">&lt;img src="http://file2.podfm.ru/32/325/3254/32543/images/lentava_38032_1_47.jpg" align=left hspace="10" &gt;Самые интересные лекции с крупнейшего айтишного open air'а в России. Не беда, если вы не смогли по каким-то причинам быть на мероприятии. Мы собрали для вас все самое интересное и записали на аудио!</description>
+<guid>http://geek-picnic.podfm.ru/</guid>
+<pubDate>Mon, 03 Sep 2012 09:56:23 +0400</pubDate>
+<link>http://geek-picnic.podfm.ru/</link>
+<podfm:linkrss>http://geek-picnic.podfm.ru/rss/rss.xml</podfm:linkrss>
+<category>Образование</category>
+</item>
+<item>
+<title shortTitle="Вести.Net">Вести.Net</title>
+<description shortDescription="Радиоверсия популярной телепрограммы, посвящённой Интернету.">&lt;img src="http://file2.podfm.ru/30/300/3003/30039/images/lentava_35006_1_38.jpg" align=left hspace="10" &gt;Радиоверсия популярной телепрограммы, посвящённой Интернету. По будням. В субботу - итоговый выпуск.</description>
+<guid>http://vestinet.podfm.ru/</guid>
+<pubDate>Mon, 03 Sep 2012 09:56:23 +0400</pubDate>
+<link>http://vestinet.podfm.ru/</link>
+<podfm:linkrss>http://vestinet.podfm.ru/rss/rss.xml</podfm:linkrss>
+<category>Новости</category>
+</item>
+<item>
+<title shortTitle="ПопОкоп">ПопОкоп</title>
+<description shortDescription="Рок-музыка глазами профессионала.">&lt;img src="http://file2.podfm.ru/30/306/3064/30644/images/lentava_35731_1_19.jpg" align=left hspace="10" &gt;Музыка поп как она есть и какой должна быть, со всеми сладостями и мерзостями, блеском и нищетой, с нынешних позиций и с точки зрения вечности.</description>
+<guid>http://popocop.podfm.ru/</guid>
+<pubDate>Mon, 03 Sep 2012 09:56:23 +0400</pubDate>
+<link>http://popocop.podfm.ru/</link>
+<podfm:linkrss>http://popocop.podfm.ru/rss/rss.xml</podfm:linkrss>
+<category>Музыка</category>
+</item>
+<item>
+<title shortTitle="Глянец">Глянец</title>
+<description shortDescription="Обзор глянцевых журналов, по будням, на Маяке.">&lt;img src="http://file2.podfm.ru/30/303/3035/30357/images/lentava_35397_1_36.jpg" align=left hspace="10" &gt;Каждый день, по будням на Маяке обзор глянцевых журналов:&lt;br /&gt; политические и светско-гламурные, автомобильные и кулинарные, научные и туристические, мужские и чисто женские, а также самые популярные издания про кино, здоровье, спорт, моду, путешествия и развлечения.&lt;br /&gt; &lt;br /&gt; &lt;b&gt;Автор и ведущая&lt;/b&gt;: Ника Горбунова.&lt;br /&gt; &lt;b&gt;Выход&lt;/b&gt;: ежедневно по будням.</description>
+<guid>http://gloss.podfm.ru/</guid>
+<pubDate>Mon, 03 Sep 2012 09:56:23 +0400</pubDate>
+<link>http://gloss.podfm.ru/</link>
+<podfm:linkrss>http://gloss.podfm.ru/rss/rss.xml</podfm:linkrss>
+<category>Новости</category>
+</item>
+<item>
+<title shortTitle="Рунет сегодня">Рунет сегодня</title>
+<description shortDescription="Программа о главных событиях российского интернета.">&lt;img src="http://file.podfm.ru/1/10/106/1063/images/lentava_21090_1_60.jpg" align=left hspace="10" &gt;"Рунет cегодня" — это программа о главных событиях российского интернета, которая выходит в прямом эфире каждый понедельник в 11:00 на радио "Финам FM". Каждую неделю ведущие эксперты отрасли обсуждают последние события в Рунете и то, как они повлияли на развитие интернет-индустрии. Это программа для тех, кто интересуется жизнью и внутренним устройством Глобальной Сети, и для тех, кто ведет свой бизнес в интернете или хотел бы его начать.</description>
+<guid>http://Runet-segodnya.podfm.ru/</guid>
+<pubDate>Mon, 03 Sep 2012 09:56:23 +0400</pubDate>
+<link>http://Runet-segodnya.podfm.ru/</link>
+<podfm:linkrss>http://Runet-segodnya.podfm.ru/rss/rss.xml</podfm:linkrss>
+<category>Интернет</category>
+</item>
+<item>
+<title shortTitle="Болячки - истории болезней">Болячки - истории болезней</title>
+<description shortDescription="Доктор Давид на страже вашего здоровья.">&lt;img src="http://file2.podfm.ru/14/141/1416/14165/images/lentava_34751_1_18.jpg" align=left hspace="10" &gt;Каждый четверг доктор Давид и Рустам Вахидов рассказывают историю одной из болезней. Серьезно разговаривать на такие темы противопоказано, поэтому немного юмора есть в каждом выпуске. Иногда больше.</description>
+<guid>http://doctor.podfm.ru/</guid>
+<pubDate>Mon, 03 Sep 2012 09:56:23 +0400</pubDate>
+<link>http://doctor.podfm.ru/</link>
+<podfm:linkrss>http://doctor.podfm.ru/rss/rss.xml</podfm:linkrss>
+<category>Здоровье</category>
+</item>
+<item>
+<title shortTitle="Наука 2.0">Наука 2.0</title>
+<description shortDescription="Общедоступно об открытиях в разных областях науки. Убедительно и еженедельно.">&lt;img src="http://file2.podfm.ru/30/300/3003/30039/images/lentava_35072_1_7.jpg" align=left hspace="10" &gt;Отражение вселенной в теориях и гипотезах, наблюдениях и фактах - в спецпроекте радиостанции "Вести ФМ" и портала "Полит.РУ". Главные ньюсмейкеры самых разных областей науки на человеческом языке объясняют суть своих открытий. Убедительно. Общедоступно. Еженедельно. По субботам, в 23:16.</description>
+<guid>http://nauka20.podfm.ru/</guid>
+<pubDate>Mon, 03 Sep 2012 09:56:23 +0400</pubDate>
+<link>http://nauka20.podfm.ru/</link>
+<podfm:linkrss>http://nauka20.podfm.ru/rss/rss.xml</podfm:linkrss>
+<category>Наука</category>
+</item>
+<item>
+<title shortTitle="Уроки истории">Уроки истории</title>
+<description shortDescription="Подкаст о памятных исторических событиях.">&lt;img src="http://file2.podfm.ru/30/300/3003/30039/images/lentava_35073_1_70.jpg" align=left hspace="10" &gt;Историк и журналист Андрей Светенко рассказывает о памятных и забытых исторических событиях и их истинном значении. Ежедневно. &lt;br /&gt; Факультативно - беседует с историками. По субботам, в 20:33</description>
+<guid>http://historylessons.podfm.ru/</guid>
+<pubDate>Mon, 03 Sep 2012 09:56:23 +0400</pubDate>
+<link>http://historylessons.podfm.ru/</link>
+<podfm:linkrss>http://historylessons.podfm.ru/rss/rss.xml</podfm:linkrss>
+<category>История</category>
+</item>
+<item>
+<title shortTitle="Раша: Азбука Выживания">Раша: Азбука Выживания</title>
+<description shortDescription="Программа о проблемах нашего общества.">&lt;img src="http://file2.podfm.ru/6/69/691/6910/images/lentava_7597_1_29.jpg" align=left hspace="10" &gt;"Раша: Азбука Выживания" — авторская программа Андрея Хрусталева о социальных и политических проблемах российского общества. Еженедельно — анализ текущих событий, обзор нашумевших публикаций, мнение гостей и комментарии автора.</description>
+<guid>http://rasha.podfm.ru/</guid>
+<pubDate>Mon, 03 Sep 2012 09:56:23 +0400</pubDate>
+<link>http://rasha.podfm.ru/</link>
+<podfm:linkrss>http://rasha.podfm.ru/rss/rss.xml</podfm:linkrss>
+<category>Политика</category>
+</item>
+<item>
+<title shortTitle="Взгляд Максима Кононенко">Взгляд Максима Кононенко</title>
+<description shortDescription="Неожиданная трактовка актуальных проблем.">&lt;img src="http://file2.podfm.ru/30/300/3003/30039/images/lentava_35007_1_71.jpg" align=left hspace="10" &gt;Реплика известного российского публициста и блогера Максима Кононенко, свежий взгляд, неожиданная и остроумная трактовка актуальных проблем. По будням.</description>
+<guid>http://kononenko.podfm.ru/</guid>
+<pubDate>Mon, 03 Sep 2012 09:56:23 +0400</pubDate>
+<link>http://kononenko.podfm.ru/</link>
+<podfm:linkrss>http://kononenko.podfm.ru/rss/rss.xml</podfm:linkrss>
+<category>Политика</category>
+</item>
+<item>
+<title shortTitle="Брендятина">Брендятина — истории брендов</title>
+<description shortDescription="Истории мировых брендов.">&lt;img src="http://file2.podfm.ru/14/141/1416/14165/images/lentava_16013_1_94.jpg" align=left hspace="10" &gt;Рубрика "Брендятина" выходит каждый вторник на радио "Маяк" в рамках утреннего шоу "Программа П". Бессменный разоблачитель брендов — Рустам Вахидов. В качестве соведущих выступают непосредственно Сергей Стиллавин, а также Виктория Колосова, Владимир Пастухов и dj Витус.</description>
+<guid>http://brand.podfm.ru/</guid>
+<pubDate>Mon, 03 Sep 2012 09:56:23 +0400</pubDate>
+<link>http://brand.podfm.ru/</link>
+<podfm:linkrss>http://brand.podfm.ru/rss/rss.xml</podfm:linkrss>
+<category>История</category>
+</item>
+<item>
+<title shortTitle="All Mobile">All Mobile</title>
+<description shortDescription="Программа Александра Побыванца о мобильных телефонах.">&lt;img src="http://file2.podfm.ru/29/292/2924/29241/images/lentava_34080_1_24.jpg" align=left hspace="10" &gt;Программа Александра Побыванца о мобильных телефонах.&lt;br /&gt; Слушателей подкаста ждёт детальный обзор гаджетов, которые попали в руки к Александру. Он расскажет вам все, что нужно знать о телефонах - от технических характеристик до плюсов и минусов их использования.</description>
+<guid>http://allmobile.podfm.ru/</guid>
+<pubDate>Mon, 03 Sep 2012 09:56:23 +0400</pubDate>
+<link>http://allmobile.podfm.ru/</link>
+<podfm:linkrss>http://allmobile.podfm.ru/rss/rss.xml</podfm:linkrss>
+<category>Технологии</category>
+</item>
+<item>
+<title shortTitle="Альманах фантастики">Альманах фантастики</title>
+<description shortDescription="Цикл рассказов для поклонников фантастики.">&lt;img src="http://file2.podfm.ru/18/181/1810/18104/images/lentava_21247_1_62.jpg" align=left hspace="10" &gt;"Альманах фантастики" — это проект некоммерческого журнала "Фантаскоп" для поклонников хорошей фантастики. Вашему вниманию представлен цикл многосерийных рассказов, как от признанных гуру русскоязычной фантастики, так и от новых авторов, которым проект дал возможность донести своё творчество до читателя.</description>
+<guid>http://almanah.podfm.ru/</guid>
+<pubDate>Mon, 03 Sep 2012 09:56:23 +0400</pubDate>
+<link>http://almanah.podfm.ru/</link>
+<podfm:linkrss>http://almanah.podfm.ru/rss/rss.xml</podfm:linkrss>
+<category>Аудиокниги</category>
+</item>
+<item>
+<title shortTitle="Тест-драйв">Большой Тест-драйв</title>
+<description shortDescription="Впечатления об автомобилях Сергея Стиллавина и его друзей.">&lt;img src="http://file2.podfm.ru/14/141/1416/14165/images/lentava_16010_1_62.jpg" align=left hspace="10" &gt;"Большой Тест-драйв" — подкаст об автомобилях, который выходит в виде рубрики в рамках утреннего шоу "Сергей Стиллавин и его друзья" на радио "Маяк". Ведущие тестируют различные марки автомобилей и делятся своими впечатлениями.</description>
+<guid>http://test-drive.podfm.ru/</guid>
+<pubDate>Mon, 03 Sep 2012 09:56:23 +0400</pubDate>
+<link>http://test-drive.podfm.ru/</link>
+<podfm:linkrss>http://test-drive.podfm.ru/rss/rss.xml</podfm:linkrss>
+<category>Автомобили</category>
+</item>
+<item>
+<title shortTitle="Organica">Organica</title>
+<description shortDescription="Авторская программа о том, что мы едим.">&lt;img src="http://file2.podfm.ru/25/258/2582/25822/images/lentava_29797_1_75.jpg" align=left hspace="10" &gt;Organica — авторская программа о том, что мы едим, об экологически чистых органических продуктах и эволюции сознания. Ведущие и гости обсудят проблему питания жителя мегаполиса: что и где в Петербурге поесть с пользой для тела и духа? Что такое органические продукты и откуда они берутся? Как настроить себя и своих близких на правильное миропонимание и любовь к себе, а соответственно к своему телу и тому, что в него попадает? Как оградить детей и себя от небезопасных товаров? Ведь человек есть то, что он ест. &lt;br /&gt; Подкаст "Organica" поможет настроиться на позитив и научит, как покупать не бренд, а вкусный и полезный для человека и природы продукт.&lt;br /&gt; Присоединяйтесь, being ECO Friendly :)</description>
+<guid>http://supergreen.podfm.ru/</guid>
+<pubDate>Mon, 03 Sep 2012 09:56:23 +0400</pubDate>
+<link>http://supergreen.podfm.ru/</link>
+<podfm:linkrss>http://supergreen.podfm.ru/rss/rss.xml</podfm:linkrss>
+<category>Здоровье</category>
+</item>
+<item>
+<title shortTitle="Зарядка полиглота">Зарядка полиглота</title>
+<description shortDescription="Для тех, кто изучает иностранные языки самостоятельно.">&lt;img src="http://file2.podfm.ru/26/264/2642/26428/images/lentava_30503_1_83.jpg" align=left hspace="10" &gt;Как запоминать незнакомые слова на раз, два, три? Как научиться понимать иностранную речь и  пользоваться своими знаниями в повседневной жизни? Об этом в подкасте "Зарядка полиглота".</description>
+<guid>http://polyglot.podfm.ru/</guid>
+<pubDate>Mon, 03 Sep 2012 09:56:23 +0400</pubDate>
+<link>http://polyglot.podfm.ru/</link>
+<podfm:linkrss>http://polyglot.podfm.ru/rss/rss.xml</podfm:linkrss>
+<category>Образование</category>
+</item>
+<item>
+<title shortTitle="Модель Для Сборки">Модель Для Сборки</title>
+<description shortDescription="Радиопостановки Влада Коппа.">&lt;img src="http://file.podfm.ru/3/33/332/3322/images/lentava_2708_1_50.jpg" align=left hspace="10" &gt;"Модель Для Сборки" — радиопостановки произведений современной прозы, в подавляющем большинстве случаев фантастической и научно-фантастической, в сопровождении электронной музыки. Автор и ведущий проекта "Модель Для Сборки" — Влад Копп. Проект выходит при поддержке компании Samsung.&lt;br /&gt; &lt;A HREF="http://vk.com/mds_online" rel=nofollow target=_blank&gt;Крупнейшее сообщество, посвященное МДС&lt;/A&gt;.</description>
+<guid>http://mds.podfm.ru/</guid>
+<pubDate>Mon, 03 Sep 2012 09:56:23 +0400</pubDate>
+<link>http://mds.podfm.ru/</link>
+<podfm:linkrss>http://mds.podfm.ru/rss/rss.xml</podfm:linkrss>
+<category>Аудиокниги</category>
+</item>
+<item>
+<title shortTitle="Рунетология">Аналитическая программа «Рунетология»</title>
+<description shortDescription="">&lt;img src="http://file.podfm.ru/1/10/106/1063/images/lentava_4951_1_34.jpg" align=left hspace="10" &gt;"Рунетология" — еженедельная программа, гостями которой становятся топ-менеджеры крупных интернет-проектов, создатели ярких стартапов, заметные веб-предприниматели. В каждом выпуске передачи освещается бизнес-биография героя интервью и в деталях разбирается та сфера рынка, в которую он наиболее глубоко погружен. "Рунетология" — это портретная галерея тех, кто создает лицо русского интернета, а также "карта местности" для всех интересующихся бизнесом в Глобальной Сети.&lt;br /&gt; &lt;br /&gt; &lt;b&gt;Жанр:&lt;/b&gt; ток-шоу&lt;br /&gt; &lt;b&gt;Ведущий:&lt;/b&gt; Максим Спиридонов &lt;A href=http://spiridonov.ru rel=nofollow target=_blank&gt;http://spiridonov.ru&lt;/a&gt;</description>
+<guid>http://runetologia.podfm.ru/</guid>
+<pubDate>Mon, 03 Sep 2012 09:56:23 +0400</pubDate>
+<link>http://runetologia.podfm.ru/</link>
+<podfm:linkrss>http://runetologia.podfm.ru/rss/rss.xml</podfm:linkrss>
+<category>Бизнес</category>
+</item>
+<item>
+<title shortTitle="Radio Grinch">Radio Grinch</title>
+<description shortDescription="Авторская программа Дениса aka Radio Grinch.">&lt;img src="http://file.podfm.ru/1/13/134/1341/images/lentava_11453_1_12.jpg" align=left hspace="10" &gt;"Radio Grinch" — авторская программа Дениса, известного среди слушателей под ником Radio Grinch. В еженедельных выпусках одноименной ленты обсуждение текущих событий, обзор интересных проектов, личный дневник автора и много другой полезной и интересной информации.&lt;br /&gt; &lt;br /&gt; &lt;b&gt;Официальный сайт:&lt;/b&gt; &lt;a rel="nofollow" href="http://radiogrinch.ru" target="_blank"&gt;http://radiogrinch.ru&lt;/a&gt;&lt;br /&gt; &lt;b&gt;Email:&lt;/b&gt; &lt;a rel="nofollow" href="mailto:radiogrinch@gmail.com"&gt;radiogrinch@gmail.com&lt;/a&gt;</description>
+<guid>http://radiogrinch.podfm.ru/</guid>
+<pubDate>Mon, 03 Sep 2012 09:56:23 +0400</pubDate>
+<link>http://radiogrinch.podfm.ru/</link>
+<podfm:linkrss>http://radiogrinch.podfm.ru/rss/rss.xml</podfm:linkrss>
+<category>Хобби и увлечения </category>
+</item>
+<item>
+<title shortTitle="Откровенно про IT карьеризм">Откровенно про IT-карьеризм</title>
+<description shortDescription="Программа о построении карьеры в IT-сферах.">&lt;img src="http://file2.podfm.ru/19/195/1955/19553/images/lentava_22715_1_94.jpg" align=left hspace="10" &gt;"Откровенно про IT-карьеризм" — программа, посвященная резюме, собеседованиям, построению карьеры и просто беседах о разных IT-сферах. Программу ведут Михаил Марченко — программист, начинающий Scrum master и просто веселый человек, и его соведущая —  HR-manager, бизнес-тренер, специалист по оценке и мотивации персонала Ольга Давыдова.</description>
+<guid>http://it-career.podfm.ru/</guid>
+<pubDate>Mon, 03 Sep 2012 09:56:23 +0400</pubDate>
+<link>http://it-career.podfm.ru/</link>
+<podfm:linkrss>http://it-career.podfm.ru/rss/rss.xml</podfm:linkrss>
+<category>Карьера</category>
+</item>
+<item>
+<title shortTitle="Кармический подкаст">Кармический подкаст</title>
+<description shortDescription="Гороскопы от Пауля Глобуса.">&lt;img src="http://file2.podfm.ru/29/291/2913/29138/images/lentava_33950_1_39.jpg" align=left hspace="10" &gt;Кармические гороскопы от Пауля Глобуса читают сотни тысяч людей. И все они задаются вопросом: кто он, этот загодочный Пауль? Дух немецкого осьминога? Добрачный сын Павла и Тамары Глобов? &lt;br /&gt; Мы и сами никогда его не видели, но мы слышали Слово, и мы вняли Слову, и теперь мы несем Его вам.&lt;br /&gt; &lt;br /&gt; Кармические подкасты без купюр, но с котятками, каждую неделю на &lt;A HREF="http://podfm.ru" rel=nofollow target=_blank&gt;PodFM.ru&lt;/A&gt;. Кармическая благодать в ваши уши. Йоу!</description>
+<guid>http://globus.podfm.ru/</guid>
+<pubDate>Mon, 03 Sep 2012 09:56:23 +0400</pubDate>
+<link>http://globus.podfm.ru/</link>
+<podfm:linkrss>http://globus.podfm.ru/rss/rss.xml</podfm:linkrss>
+<category>Развлечения</category>
+</item>
+<item>
+<title shortTitle="Time to go out!">Timeout Петербург</title>
+<description shortDescription="Гид по лучшим развлечениям Петербурга.">&lt;img src="http://file2.podfm.ru/29/299/2999/29995/images/lentava_34949_1_19.jpg" align=left hspace="10" &gt;Журнал TimeOut - это гид по лучшим городским развлечения: обзор новых ресторанов и магазинов, рецензии на фильмы, клубные вечеринки, выставки, театральные спектакли, книжные новинки. Первый номер Time Out вышел в Лондоне в 1968 году. Сейчас журналы Time Out выходят в 40 крупнейших городах мира, от Лондона и Нью-Йорка до Шанхая и Сиднея.</description>
+<guid>http://timeout.podfm.ru/</guid>
+<pubDate>Mon, 03 Sep 2012 09:56:23 +0400</pubDate>
+<link>http://timeout.podfm.ru/</link>
+<podfm:linkrss>http://timeout.podfm.ru/rss/rss.xml</podfm:linkrss>
+<category>Развлечения</category>
+</item>
+<item>
+<title shortTitle="Cinema-ток">Cinema-ток</title>
+<description shortDescription="Прошлое, настоящее и будущее кинематографа.">&lt;img src="http://file2.podfm.ru/14/143/1435/14357/images/lentava_16226_1_14.jpg" align=left hspace="10" &gt;"Cinema-ток" — программа о кино, основным ключевым моментом которой будет выяснить специфику кино, его семантику и, конечно, последующее влияние. Родившееся изначально как техническое изобретение, кинематограф впоследствии превратился не только в средство массового развлечения, но показал себя мощным и влиятельным искусством. XX век не скупился на события, давая пищу для размышлений только что изобретенному кинематографу. Именно поэтому реестр выбора тем невообразимо широк. От исторической справки о первых кинопоказах в разных странах мира и значительных течениях, повлиявших на само понимание такого рода искусства, как "кино". До рассмотрения культа кинодив и анализа конкретных фильмов. Нам есть, что обсудить!</description>
+<guid>http://cinema-talk.podfm.ru/</guid>
+<pubDate>Mon, 03 Sep 2012 09:56:23 +0400</pubDate>
+<link>http://cinema-talk.podfm.ru/</link>
+<podfm:linkrss>http://cinema-talk.podfm.ru/rss/rss.xml</podfm:linkrss>
+<category>Кино</category>
+</item>
+<item>
+<title shortTitle="MediaFresh">MediaFresh</title>
+<description shortDescription="Программа о мире публичных коммуникаций.">&lt;img src="http://file2.podfm.ru/26/260/2600/26005/images/lentava_30001_1_53.jpg" align=left hspace="10" &gt;MediaFresh — программа о мире публичных коммуникаций. Гости программы — практики в области связей с общественностью, рекламы, маркетинга и журналистики. Эксперты делятся своим профессиональным опытом, практическими кейсами, а также дают рекомендации молодым специалистам.</description>
+<guid>http://MediaFresh.podfm.ru/</guid>
+<pubDate>Mon, 03 Sep 2012 09:56:23 +0400</pubDate>
+<link>http://MediaFresh.podfm.ru/</link>
+<podfm:linkrss>http://MediaFresh.podfm.ru/rss/rss.xml</podfm:linkrss>
+<category>Бизнес</category>
+</item>
+<item>
+<title shortTitle="Признаки Времени">Признаки Времени</title>
+<description shortDescription="Программа об искусстве и творчестве.">&lt;img src="http://file2.podfm.ru/10/100/1008/10082/images/lentava_11307_1_70.jpg" align=left hspace="10" &gt;"Признаки Времени" — авторская программа Севы Гаккеля об искусстве и творчестве. Гости программы — музыканты, актеры, художники, режиссеры — все те состоявшиеся творческие личности, которым есть что рассказать слушателям.</description>
+<guid>http://art.podfm.ru/</guid>
+<pubDate>Mon, 03 Sep 2012 09:56:23 +0400</pubDate>
+<link>http://art.podfm.ru/</link>
+<podfm:linkrss>http://art.podfm.ru/rss/rss.xml</podfm:linkrss>
+<category>Культура и искусство </category>
+</item>
+<item>
+<title shortTitle="Paradnaya">Paradnaya</title>
+<description shortDescription="Программа о молодых талантах.">&lt;img src="http://file2.podfm.ru/16/163/1639/16394/images/lentava_18486_1_28.jpg" align=left hspace="10" &gt;PARADNAYA — околополитический подкаст о молодёжной культуре и музыке, с обилием острот, сарказма и потешных джинглов. Юмористическая, ироничная передача даст вам возможность не только ознакомиться с происходящими в стране и мире событиями, но и выслушать альтернативное мнение ведущих.&lt;br /&gt; &lt;br /&gt; &lt;br /&gt; Временами в студии появляются интересные гости. В каждом выпуске звучит песня молодой российской, или зарубежной команды. У вас есть уникальная возможность не только послушать передачу, но и быть в ней услышанным.&lt;br /&gt; &lt;br /&gt; Заходи в парадную!)</description>
+<guid>http://paradnaya.podfm.ru/</guid>
+<pubDate>Mon, 03 Sep 2012 09:56:23 +0400</pubDate>
+<link>http://paradnaya.podfm.ru/</link>
+<podfm:linkrss>http://paradnaya.podfm.ru/rss/rss.xml</podfm:linkrss>
+<category>Музыка</category>
+</item>
+<item>
+<title shortTitle="Soccer show">Soccer show</title>
+<description shortDescription="Программа о самой популярной на планете игре.">&lt;img src="http://file2.podfm.ru/26/267/2677/26779/images/lentava_30923_1_25.jpg" align=left hspace="10" &gt;Soccer Show — программа о самой популярной на планете игре. Выпуски программы посвящены не только текущим новостям и аналитике отечественного и зарубежных чемпионатов, еврокубков, но и интересным вещам и людям, которые определяют современный футбол.</description>
+<guid>http://soccer.podfm.ru/</guid>
+<pubDate>Mon, 03 Sep 2012 09:56:23 +0400</pubDate>
+<link>http://soccer.podfm.ru/</link>
+<podfm:linkrss>http://soccer.podfm.ru/rss/rss.xml</podfm:linkrss>
+<category>Спорт</category>
+</item>
+<item>
+<title shortTitle="App2Top">app2top</title>
+<description shortDescription="Новости о продвижении приложений для iOS, Android, Blackberry.">&lt;img src="http://file2.podfm.ru/24/243/2431/24319/images/lentava_28037_1_55.jpg" align=left hspace="10" &gt;Подкаст о мобильных платформах: подборка новостей за неделю, аналитика, кейсы и продвижение приложений для iOS, Android, Blackberry! Подкаст будет интересен прежде всего, разработчикам, маркетологам, специалистам по продвижению на мобильных платформах, а также всем, кому интересно быть в курсе новостей индустрии.</description>
+<guid>http://app2top.podfm.ru/</guid>
+<pubDate>Mon, 03 Sep 2012 09:56:23 +0400</pubDate>
+<link>http://app2top.podfm.ru/</link>
+<podfm:linkrss>http://app2top.podfm.ru/rss/rss.xml</podfm:linkrss>
+<category>Технологии</category>
+</item>
+<item>
+<title shortTitle="Greenpeace">Greenpeace</title>
+<description shortDescription="Как сохранить природу и мир на планете.">&lt;img src="http://file2.podfm.ru/25/258/2588/25884/images/lentava_29868_1_43.jpg" align=left hspace="10" &gt;Официальный подкаст Гринпис России, посвященный актуальным проблемам охраны окружающей среды. Ведущие подкаста еженедельно рассказывают о программах и проектах Гринпис, об интересных событиях, новостях, экспедициях и исследованиях. &lt;br /&gt; &lt;br /&gt; Наша цель — сохранить мир и природу на планете, изменяя отношение людей к её природным богатствам. Сила Гринпис — в людях, которые разделяют наши убеждения. Мы верим в эффективность протеста без насилия. Своим действием мы привлекаем внимание к экологическим проблемам, вдохновляем людей и изменяем отношение властей и бизнеса к природе.&lt;br /&gt; &lt;br /&gt; &lt;b&gt;Наши проекты&lt;/b&gt;&lt;br /&gt; &lt;A HREF="http://www.greenpeace.org/russia/ru/campaigns/nuclear/" rel=nofollow target=_blank&gt;Безъядерное будущее&lt;/A&gt;&lt;br /&gt; Гринпис выступает за отказ от использования ядерной энергетики и против строительства новых атомных реакторов. Мы — за чистую, безопасную и эффективную энергетику.&lt;br /&gt; &lt;br /&gt; &lt;A HREF="http://www.greenpeace.org/russia/ru/campaigns/energy/" rel=nofollow target=_blank&gt;Возобновляемая энергетика&lt;/A&gt;&lt;br /&gt; Мы видим единственный реальный путь решения проблемы энергетической безопасности и спасения климата — переход на возобновляемые источники энергии.&lt;br /&gt; &lt;br /&gt; &lt;A HREF="http://www.greenpeace.org/russia/ru/campaigns/climate/" rel=nofollow target=_blank&gt;Изменение климата&lt;/A&gt;&lt;br /&gt; Да, климат в прошлом менялся, и даже сильнее, чем сейчас. Но никогда прежде он не менялся так быстро. Ученые четко ответили "климатическим" скептикам: глобальное изменение климата — это реальность и главной его причиной является деятельность человека.&lt;br /&gt; &lt;br /&gt; &lt;A HREF="http://www.greenpeace.org/russia/ru/campaigns/protect-the-arctic/" rel=nofollow target=_blank&gt;Защитим Арктику&lt;/A&gt;&lt;br /&gt; Нефтяные разливы в суровых арктических условиях приведут к непоправимым последствиям. Гринпис выступает за сохранение первозданной природы Арктики.&lt;br /&gt; &lt;br /&gt; &lt;A HREF="http://www.greenpeace.org/russia/ru/campaigns/forests/" rel=nofollow target=_blank&gt;Сохранение лесов&lt;/A&gt;&lt;br /&gt; При получении минимально возможных благ для жителей страны лесной природе наносится максимально возможный ущерб. Цель лесной программы Гринпис — изменить это соотношение на обратное.&lt;br /&gt; &lt;br /&gt; &lt;A HREF="http://www.greenpeace.org/russia/ru/campaigns/water-pollution/" rel=nofollow target=_blank&gt;За чистые реки&lt;/A&gt;&lt;br /&gt; Гринпис добивается от властей конкретных действий по усилению государственного контроля над сбросами, уменьшению нагрузки на городские очистные сооружения, развитию чистого производства и в результате — доведению качества воды в водоемах до безопасного уровня для человека и природы.&lt;br /&gt; &lt;br /&gt; &lt;A HREF="http://www.greenpeace.org/russia/ru/campaigns/waste/" rel=nofollow target=_blank&gt;Проблема отходов&lt;/A&gt;&lt;br /&gt; Гринпис выступает за скорейшее внедрение во всех городах и поселках России разумных схем переработки отходов. Уже сейчас можно выделять и отправлять на переработку не менее половины образующихся отходов.&lt;br /&gt; &lt;br /&gt; &lt;A HREF="http://www.greenpeace.org/russia/ru/campaigns/world-heritage/" rel=nofollow target=_blank&gt;Всемирное природное наследие&lt;/A&gt;&lt;br /&gt; Мы ведём работу по включению в Список всемирного природного наследия ЮНЕСКО уникальных российских природных объектов. Сегодня в нашей стране уже 10 территорий признаны мировым достоянием и защищены статусом наследия ЮНЕСКО.&lt;br /&gt; &lt;br /&gt; &lt;A HREF="http://www.greenpeace.org/russia/ru/campaigns/baikal/" rel=nofollow target=_blank&gt;Озеро Байкал&lt;/A&gt;&lt;br /&gt; Цель Байкальской кампании — содействовать решению экологических проблем уникального озера и его природной территории.&lt;br /&gt; &lt;br /&gt; &lt;A HREF="http://www.greenpeace.org/russia/ru/campaigns/gmo/" rel=nofollow target=_blank&gt;Генетическая безопасность&lt;/A&gt;&lt;br /&gt; Полный комплекс исследований о влиянии ГМО на организм человека и животных еще не проведен. Мы считаем необходимым широкое освещение всех проблем, связанных с выращиванием и использованием ГМО.&lt;br /&gt; &lt;br /&gt; &lt;A HREF="http://www.greenpeace.org/russia/ru/campaigns/ecodom/" rel=nofollow target=_blank&gt;Экодом&lt;/A&gt;&lt;br /&gt; Установите у себя дома энергосберегающие лампы, утеплите окна в квартире, выбирайте безопасную бытовую химию, собирайте бытовые отходы раздельно и вы внесёте свою лепту в общее дело защиты окружающей среды.&lt;br /&gt; &lt;br /&gt; &lt;A HREF="http://www.greenpeace.org/russia/ru/campaigns/green-office/" rel=nofollow target=_blank&gt;Зеленый офис&lt;/A&gt; &lt;br /&gt; Рекомендации, предлагаемые нами, просты и малозатратны. Их легко выполнить в офисах, они могут значительно снизить потребление ресурсов, уменьшить нагрузку на окружающую среду, а также привести к видимой экономии финансовых средств.</description>
+<guid>http://greenpeace.podfm.ru/</guid>
+<pubDate>Mon, 03 Sep 2012 09:56:23 +0400</pubDate>
+<link>http://greenpeace.podfm.ru/</link>
+<podfm:linkrss>http://greenpeace.podfm.ru/rss/rss.xml</podfm:linkrss>
+<category>Здоровье</category>
+</item>
+<item>
+<title shortTitle="PODзарядка">PODзарядка</title>
+<description shortDescription="Программа о спорте и здоровом образе жизни.">&lt;img src="http://file2.podfm.ru/10/100/1008/10086/images/lentava_11313_1_58.jpg" align=left hspace="10" &gt;"PODЗарядка" — авторская программа Алексея и Олега о спорте и здоровом образе жизни. Ведущие и гости программы рассказывают, как поддерживать себя в отличной физической форме, как  укреплять свой организм и  как получать максимум удовольствия от жизни. Советы и мнения экспертов будут полезны и для начинающих спортсменов, и для опытных мастеров.&lt;br /&gt; &lt;br /&gt; Олег  — закончил медвуз по двум специальностям, после ухода из врачебной практики работал журналистом, а позже и шеф-редактором газеты медицинской тематики. Сейчас оказывает консультации и проводит тренинги ЗОЖ-тематик. Автор популярного ЖЖ и уникальной диеты "Три кулака". Специалист в области питания, спорта, медицины, эстетики красоты. Придерживается принципа "спорт для жизни, а не жизнь для спорта". "Мозг" подкаста PODзарядка. Живет в Украине.&lt;br /&gt; &lt;br /&gt; Алексей — закончил военный ВУЗ, специалист в области телекоммуникаций, информационных технологий и защиты информации, со школьных лет занимается различными видами спорта. Увлеченность силовыми тренировками привела к глубокому изучению медицинской и специализированной литературы. Придерживается убеждения, что спорт — лучший антидепрессант. Подкастер со стажем. Автор идеи и редактор подкаста PODзарядка. Живет в России.</description>
+<guid>http://gym.podfm.ru/</guid>
+<pubDate>Mon, 03 Sep 2012 09:56:23 +0400</pubDate>
+<link>http://gym.podfm.ru/</link>
+<podfm:linkrss>http://gym.podfm.ru/rss/rss.xml</podfm:linkrss>
+<category>Спорт</category>
+</item>
+<item>
+<title shortTitle="На волне знаний и тенденций">На волне знаний и тенденций</title>
+<description shortDescription="Актуальные новости интернета.">&lt;img src="http://file2.podfm.ru/17/179/1795/17956/images/lentava_20953_1_65.jpg" align=left hspace="10" &gt;"На волне знаний и тенденций" — ежедневный подкаст о наиболее интересных событиях в интернете: новости социальных медиа, стартапов, интернет-маркетинга, eCommerce и мобильного веба. Хотите быть на волне знаний и тенденций? Слушайте самые актуальные новости и передовой опыт западных и отечественных специалистов!</description>
+<guid>http://wave.podfm.ru/</guid>
+<pubDate>Mon, 03 Sep 2012 09:56:23 +0400</pubDate>
+<link>http://wave.podfm.ru/</link>
+<podfm:linkrss>http://wave.podfm.ru/rss/rss.xml</podfm:linkrss>
+<category>Технологии</category>
+</item>
+<item>
+<title shortTitle="ITStoria">ITstoria</title>
+<description shortDescription="Программа об актуальном на рынке IT-персонала.">&lt;img src="http://file2.podfm.ru/25/259/2596/25965/images/lentava_30012_1_89.jpg" align=left hspace="10" &gt;"ITStoria" — еженедельная программа об актуальном на рынке IT персонала. Автор и ведущий программы — Артём Кумпель, руководитель проекта "ITMozg". В программе вас ждут обсуждения значимых IT—событий, стартапов, а также особенности приема на работу технических специалистов. Гости программы делятся своим опытом и знаниями в области IT-рекрутинга.</description>
+<guid>http://itstoria.podfm.ru/</guid>
+<pubDate>Mon, 03 Sep 2012 09:56:23 +0400</pubDate>
+<link>http://itstoria.podfm.ru/</link>
+<podfm:linkrss>http://itstoria.podfm.ru/rss/rss.xml</podfm:linkrss>
+<category>Технологии</category>
+</item>
+<item>
+<title shortTitle="Армейские Воспоминания">Армейские Воспоминания</title>
+<description shortDescription="Первый авторский подкаст об армии.">&lt;img src="http://file2.podfm.ru/5/52/523/5237/images/lentava_5144_1_47.jpg" align=left hspace="10" &gt;"Армейские Воспоминания" — это не просто воспоминания, это первый авторский подкаст об армии.&lt;br /&gt; &lt;br /&gt; Ведут подкаст опытные офицеры в запасе и их друзья.&lt;br /&gt; &lt;br /&gt; В программе:&lt;br /&gt; — "Основная часть": аналитика военных действий и повседневной жизни армии России. Выражение личного мнения о происходящем вокруг и внутри армий мира. &lt;br /&gt; — "РККА": Реформа Компактно-Карманной Армии - наблюдения за ходом военной реформы.&lt;br /&gt; — "миК-граунд": реальные мини рассказы из армейской жизни с юмором, сарказмом и всерьёз. А также байки от друзей.&lt;br /&gt; — "Советы мамам": советы мамам от бывалых офицеров, сержантов, солдат.&lt;br /&gt; — "Армейская курилка": ликбез от опытных военных для всех, не взирая военный Вы или нет.&lt;br /&gt; — "Железяка": все о вооружении и военной технике устами  офицеров.&lt;br /&gt; — "Розовая Железяка": как видит и воспринимает вооружение и военную технику женщина.&lt;br /&gt; — "Про-армейские новости": обсуждение самых свежих новостей об армии России и мира.&lt;br /&gt; — "Армейское перо": литературные и документальные произведения об армии в виде аудио-рассказов.&lt;br /&gt; — "Чтобы помнили": коротко о героях, знаменательных датах в истории ВС, орденах, медалях, командирах и просто о солдатах.&lt;br /&gt; &lt;br /&gt; Темы программы, как и выпуски — не регулярны. В одном выпуске затрагиваются не все сразу темы.&lt;br /&gt; &lt;br /&gt; P.S. У России два союзника — Армия и Флот!</description>
+<guid>http://army.podfm.ru/</guid>
+<pubDate>Mon, 03 Sep 2012 09:56:23 +0400</pubDate>
+<link>http://army.podfm.ru/</link>
+<podfm:linkrss>http://army.podfm.ru/rss/rss.xml</podfm:linkrss>
+<category>Хобби и увлечения </category>
+</item>
+<item>
+<title shortTitle="Laowaicast">Laowaicast — подкаст про Китай</title>
+<description shortDescription="Подкаст про Китай.">&lt;img src="http://file.podfm.ru/1/12/120/1204/images/lentava_9542_1_51.jpg" align=left hspace="10" &gt;"&lt;A HREF="http://laowaicast.ru" rel=nofollow target=_blank&gt;Лаовайкаст&lt;/A&gt;" — это подкаст о жизни и последних событиях в Китае из уст живущих здесь уже более 10 лет русскоговорящих обитателей. Мы рассказываем и просто разговариваем о китайцах, китайском языке и последних событиях в КНР. Ведущие подкаста: один из основателей "Восточного Полушария" Сергей Литвин, интернет-деятель Александр Мальцев, лаовай-старожил Максим Иванов и другие приглашённые гости.&lt;br /&gt; &lt;br /&gt; "Лаовайкаст" — победитель конкурсов "PODCAST AWARDS 2010" и "PODCAST AWARDS 2011" в нескольких номинациях, финалист конкурса "The Best of Blog" 2010 в категории "Лучший подкаст", победитель первого конкурса подкастов пользователей "777" на PodFM.ru.&lt;br /&gt; &lt;br /&gt; &lt;i&gt;* — Лаовай (老外 кит.) — иностранец. &lt;/i&gt;</description>
+<guid>http://laowaicast.podfm.ru/</guid>
+<pubDate>Mon, 03 Sep 2012 09:56:23 +0400</pubDate>
+<link>http://laowaicast.podfm.ru/</link>
+<podfm:linkrss>http://laowaicast.podfm.ru/rss/rss.xml</podfm:linkrss>
+<category>Путешествия</category>
+</item>
+<item>
+<title shortTitle="Подкаст журнала «Джаз.Ру»">Подкаст журнала «Джаз.Ру»</title>
+<description shortDescription="Авторский подкаст о джазе.">&lt;img src="http://file.podfm.ru/2/28/284/2840/images/lentava_2105_1_66.jpg" align=left hspace="10" &gt;Редакция журнала "Джаз.Ру" представляет подкаст о джазе. Авторы портала Jazz.ru Кирилл Мошков и Анна Филипьева, а также их гости рассказывают о музыке, которую слушают сами — и это вовсе не обязательно традиционный джаз!&lt;br /&gt; &lt;br /&gt; Архив более ранних подкастов — &lt;A href=http://www.jazz.ru/listenhere/ rel=nofollow target=_blank&gt;www.jazz.ru/listenhere/&lt;/a&gt;</description>
+<guid>http://jazz.podfm.ru/</guid>
+<pubDate>Mon, 03 Sep 2012 09:56:23 +0400</pubDate>
+<link>http://jazz.podfm.ru/</link>
+<podfm:linkrss>http://jazz.podfm.ru/rss/rss.xml</podfm:linkrss>
+<category>Музыка</category>
+</item>
+<item>
+<title shortTitle="Подпольное шоу">Подпольное Шоу Кремова и Хрусталева</title>
+<description shortDescription="Скандальная программа Кремова и Хрусталева.">&lt;img src="http://file2.podfm.ru/6/69/691/6910/images/lentava_7349_1_26.jpg" align=left hspace="10" &gt;"Подпольное шоу Кремова и Хрусталева" — это скандальное продолжение утреннего шоу, выходившего на радио МАКСИМУМ. Никакой цензуры! Кремов и Хрусталев обсуждают главные события недели. Для тех, кто не любит новости по телевидению и хочет альтернативной точки зрения.&lt;br /&gt; &lt;br /&gt; &lt;b&gt;Периодичность выхода:&lt;/b&gt; раз в неделю&lt;br /&gt; &lt;b&gt;Продолжительность:&lt;/b&gt; 15-30 минут</description>
+<guid>http://podshow.podfm.ru/</guid>
+<pubDate>Mon, 03 Sep 2012 09:56:23 +0400</pubDate>
+<link>http://podshow.podfm.ru/</link>
+<podfm:linkrss>http://podshow.podfm.ru/rss/rss.xml</podfm:linkrss>
+<category>Политика</category>
+</item>
+<item>
+<title shortTitle="Правовед">Правовед</title>
+<description shortDescription="Правовые аспекты нашей жизни.">&lt;img src="http://file2.podfm.ru/15/157/1578/15782/images/lentava_18187_1_33.jpg" align=left hspace="10" &gt;Программа "Правовед" посвящена правовым аспектам нашей жизни. В ней журналист Светлана Спиваковская обсуждает с экспертами и юристами насущные вопросы, с которыми все люди, так или иначе, сталкиваются в бизнесе, жизни и даже в супружеских отношениях. Что такое авторское право? Работают ли российские законы? Нужно ли всегда носить с собой паспорт? Сколько раз необходимо прочитать договор перед подписанием? Как защитить интеллектуальный труд? Ответы на эти и множество других вопросов вы узнаете из программы "Правовед" на PodFM.ru.</description>
+<guid>http://pravoved.podfm.ru/</guid>
+<pubDate>Mon, 03 Sep 2012 09:56:23 +0400</pubDate>
+<link>http://pravoved.podfm.ru/</link>
+<podfm:linkrss>http://pravoved.podfm.ru/rss/rss.xml</podfm:linkrss>
+<category>Бизнес</category>
+</item>
+<item>
+<title shortTitle="Не фантастические горизонты">Не фантастические горизонты</title>
+<description shortDescription="Научно-популярный аудиожурнал.">&lt;img src="http://file2.podfm.ru/18/181/1810/18104/images/lentava_21130_1_4.jpg" align=left hspace="10" &gt;"Не фантастические горизонты" — научно-популярный пролог в звуковой обложке. Во всём мире очень много неизведанного и необычного. Даже камень, найденный в горах, может оказаться уникальной реликвией. В этих моментах наука напрямую переплетается с фантастикой. Слушайте научно-популярный аудиожурнал  в рамках образовательного цикла журнала "Фантаскоп".&lt;br /&gt; &lt;a rel="nofollow" href="http://fantascop.ru/" target="_blank"&gt;http://fantascop.ru/&lt;/a&gt;</description>
+<guid>http://fantastic.podfm.ru/</guid>
+<pubDate>Mon, 03 Sep 2012 09:56:23 +0400</pubDate>
+<link>http://fantastic.podfm.ru/</link>
+<podfm:linkrss>http://fantastic.podfm.ru/rss/rss.xml</podfm:linkrss>
+<category>Наука</category>
+</item>
+<item>
+<title shortTitle="Увеличение интернет-продаж">Увеличение интернет-продаж</title>
+<description shortDescription="Программа о том, как увеличить интернет-продажи.">&lt;img src="http://file2.podfm.ru/21/218/2186/21867/images/lentava_28002_1_23.jpg" align=left hspace="10" &gt;"Увеличение интернет-продаж" — передача Антона Ельницкого, руководителя проекта InternetSales.Pro. В программе вы найдете готовые решения, как увеличить продажи своего сайта, привлечь больше посетителей на сайт, cпроектировать продающий сайт и автоматизировать интернет-продажи.</description>
+<guid>http://internetsales.podfm.ru/</guid>
+<pubDate>Mon, 03 Sep 2012 09:56:23 +0400</pubDate>
+<link>http://internetsales.podfm.ru/</link>
+<podfm:linkrss>http://internetsales.podfm.ru/rss/rss.xml</podfm:linkrss>
+<category>Интернет</category>
+</item>
+<item>
+<title shortTitle="Бесславные Кинокритики">Бесславные Кинокритики</title>
+<description shortDescription="Откровенные рецензии новинок кино и фильмов прошлых лет.">&lt;img src="http://file2.podfm.ru/9/96/968/9686/images/lentava_10806_1_7.jpg" align=left hspace="10" &gt;"Бесславные Кинокритики" — еженедельная программа  о новинках кинопроката и новостях киноиндустрии. Руководители Дома Культуры поселка Ропша Ленинградской области по выходным устраивают бесплатные кинопоказы, после которых разбирают по косточкам премьеру недели, анализируют киноновости и вспоминают киностарости. Теперь они выходят на межгалактический уровень.</description>
+<guid>http://cinema.podfm.ru/</guid>
+<pubDate>Mon, 03 Sep 2012 09:56:23 +0400</pubDate>
+<link>http://cinema.podfm.ru/</link>
+<podfm:linkrss>http://cinema.podfm.ru/rss/rss.xml</podfm:linkrss>
+<category>Кино</category>
+</item>
+<item>
+<title shortTitle="Сериальный TRENDец">Сериальный TRENDец</title>
+<description shortDescription="Официальные новости проекта «Кураж Бамбей».">&lt;img src="http://file2.podfm.ru/23/231/2311/23116/images/lentava_26624_1_39.jpg" align=left hspace="10" &gt;Самые интересные новости о культовых сериалах, главные мировые премьеры и интервью с актерами. И все это в исполнении Дениса Колесникова — официального голоса проекта "Кураж Бамбей"!</description>
+<guid>http://trendets.podfm.ru/</guid>
+<pubDate>Mon, 03 Sep 2012 09:56:23 +0400</pubDate>
+<link>http://trendets.podfm.ru/</link>
+<podfm:linkrss>http://trendets.podfm.ru/rss/rss.xml</podfm:linkrss>
+<category>Кино</category>
+</item>
+<item>
+<title shortTitle="Новости Науки и Техники">Новости Науки и Техники</title>
+<description shortDescription="Подробности последних открытий и достижений.">&lt;img src="http://file.podfm.ru/1/18/182/1826/images/lentava_9324_1_20.jpg" align=left hspace="10" &gt;"Новости Науки и Техники" — еженедельная научно-познавательная программа Дмитрия Дейнеги о событиях в мире науки, техники и информационных технологий. В еженедельном дайджесте — подробности последних новинок, открытий и достижений.</description>
+<guid>http://nauka.podfm.ru/</guid>
+<pubDate>Mon, 03 Sep 2012 09:56:23 +0400</pubDate>
+<link>http://nauka.podfm.ru/</link>
+<podfm:linkrss>http://nauka.podfm.ru/rss/rss.xml</podfm:linkrss>
+<category>Наука</category>
+</item>
+<item>
+<title shortTitle="42">42</title>
+<description shortDescription="Ответы на главные вопросы жизни.">&lt;img src="http://file2.podfm.ru/10/107/1073/10733/images/lentava_13079_1_67.jpg" align=left hspace="10" &gt;"42" — познавательная программа редакции блога Lifehacker.ru. Ведущие рассказывают о лучших нестандартных решениях, изобретениях, хитростях и уловках, которые позволяют сделать жизнь удобнее, интереснее и веселее. Темы для обсуждения подбираются из материалов различных сайтов и корреспонденции читателей.</description>
+<guid>http://42.podfm.ru/</guid>
+<pubDate>Mon, 03 Sep 2012 09:56:23 +0400</pubDate>
+<link>http://42.podfm.ru/</link>
+<podfm:linkrss>http://42.podfm.ru/rss/rss.xml</podfm:linkrss>
+<category>Технологии</category>
+</item>
+<item>
+<title shortTitle="«ИнтернетУРА!»">ИнтернетУРА!</title>
+<description shortDescription="О поведении людей в Интернете.">&lt;img src="http://file.podfm.ru/2/24/242/2428/images/lentava_10988_1_19.jpg" align=left hspace="10" &gt;"ИнтернетУРА!" — цикл передач об Интернете в целом, о твиттерах, чатах, форумах, блогах и других средствах виртуального обмена информацией. Эксперты программы рассматривают Интернет как инструмент социализации. С этой позиции они обсуждают поведение разного типа людей в Интернете, исследуют метаморфозы Сети и влияние этих изменений на среднего интернет пользователя.&lt;br /&gt; &lt;br /&gt; Подкаст групповой и гостевой. Гости программы — эксперты, имеющие глубокие познания в области Интернет, психологии или социологии. Это люди, имеющие солидный практический опыт и определенный авторитет в заявленной теме.</description>
+<guid>http://internetura.podfm.ru/</guid>
+<pubDate>Mon, 03 Sep 2012 09:56:23 +0400</pubDate>
+<link>http://internetura.podfm.ru/</link>
+<podfm:linkrss>http://internetura.podfm.ru/rss/rss.xml</podfm:linkrss>
+<category>Интернет</category>
+</item>
+<item>
+<title shortTitle="Barcamania">BarcaMania</title>
+<description shortDescription="Футбольный подкаст о больше, чем Клубе.">&lt;img src="http://file2.podfm.ru/17/175/1759/17590/images/lentava_20540_1_94.jpg" align=left hspace="10" &gt;Barcamania -— популярный футбольный подкаст, главным объектом которого является замечательный футбольный клуб "ФК Барселона". В подкасте вы услышите мнения разных людей, относительно как самой "Барсы", так и других футбольных тем. Сейчас, когда футбол стал мировым феноменом, "ФК Барселона"  поддерживают по всему миру. По этой причине "ФК Барселона" принял решение перечислять 0,7% годового дохода на мировые социальные программы. В течение пяти лет клуб будет ежегодно выделять на эти цели около €1 млн. Такого рода соглашения делают Барсу уникальным спортивным проектом.</description>
+<guid>http://barcamania.podfm.ru/</guid>
+<pubDate>Mon, 03 Sep 2012 09:56:23 +0400</pubDate>
+<link>http://barcamania.podfm.ru/</link>
+<podfm:linkrss>http://barcamania.podfm.ru/rss/rss.xml</podfm:linkrss>
+<category>Спорт</category>
+</item>
+<item>
+<title shortTitle="Лунный город">Лунный город</title>
+<description shortDescription="Программа об экспериментальной, авангардной музыке.">&lt;img src="http://file2.podfm.ru/29/296/2969/29693/images/lentava_34718_1_58.jpg" align=left hspace="10" &gt;&lt;b&gt;"Лунный город" &lt;/b&gt; – единственная в Санкт Петербурге музыкальная программа электронной, экспериментальной, авангардной, экзотической музыки. Выходит на РАДИО Фонтанка - Fontanka.fm.&lt;br /&gt; Время выхода - воскресенье  с 22:00 до 00:00 , повтор c четверга на пятницу в 00:00.&lt;br /&gt; &lt;br /&gt; Программа &lt;b&gt;"Лунный город"&lt;/b&gt; впервые появилась в эфире в октябре 1996 года. Ее автор и ведущая &lt;b&gt;Александра Ромашова &lt;/b&gt;работала на "Радио Рокс" Санкт-Петербург с 1993 года, когда начало вещание петербургское отделение станции. Однако, начиналась передача на другой радио волне. Это было связано со сменой руководства станции и временным уходом автора на другую радиостанцию. Именно там появилась новая передача. С июня 1997 года "Лунный город" выходила на волне 102 FM Радио Рокс. В июне 2011 года произошел рейдерский захват Радио РОКС и петербургская студия прекратила свое существование. Исчезла из эфира и программа "Лунный город". Теперь, на радио ФОНТАНКА "Лунный город" возрождается!&lt;br /&gt; &lt;br /&gt; "Лунный город" не ограничевается именами исполнителей какой-либо определенной музыкальной школы. В программе вы можете услышать музыку самых разных музыкальных направлений: кельтские, скандинавские, арабские мотивы в современном звучании, классическая электроника, эмбиент, нью-эдж, произведения мастеров экспериментальной и авангардной музыки, прекрасные женские и мужские голоса и многое другое. Автор передачи ставит целью представить творчество исполнителей и коллективов в их развитии. Один из главных принципов - не давать оценок и не навязывать мнения о музыке. Наша задача - заинтересовать, заинтриговать и дать возможность самим составить мнение о том, что вы слышите. Большое спасибо всем слушателям программы без интереса и поддержки которых передача не могла бы существовать.&lt;br /&gt; &lt;br /&gt; Сайт программы:  &lt;a rel="nofollow" href="http://moontown.ru" target="_blank"&gt;http://moontown.ru&lt;/a&gt;</description>
+<guid>http://mooncity.podfm.ru/</guid>
+<pubDate>Mon, 03 Sep 2012 09:56:23 +0400</pubDate>
+<link>http://mooncity.podfm.ru/</link>
+<podfm:linkrss>http://mooncity.podfm.ru/rss/rss.xml</podfm:linkrss>
+<category>Музыка</category>
+</item>
+<item>
+<title shortTitle="Блюз Бизнес">Блюз Бизнес</title>
+<description shortDescription="Блюз бизнес  - авторская передача Алексея Рыбина о музыке в  стиле блюз.">&lt;img src="http://file2.podfm.ru/29/296/2969/29693/images/lentava_34719_1_66.jpg" align=left hspace="10" &gt;"Блюз Бизнес"&lt;/b&gt; — авторская передача Алексея Рыбина о музыке в стиле блюз. &lt;br /&gt; История возникновения и развития этого направления, яркие представители блюзовой культуры, новинки и "старинки" жанра: слушайте каждую субботу в 21:00 с повтором в это же время (21:00) по понедельникам.</description>
+<guid>http://bluesbusiness.podfm.ru/</guid>
+<pubDate>Mon, 03 Sep 2012 09:56:23 +0400</pubDate>
+<link>http://bluesbusiness.podfm.ru/</link>
+<podfm:linkrss>http://bluesbusiness.podfm.ru/rss/rss.xml</podfm:linkrss>
+<category>Музыка</category>
+</item>
+<item>
+<title shortTitle="АРТ РОКС">АРТ РОКС</title>
+<description shortDescription="Программа Алексея Рыбина о специфических направлениях в рок-музыке.">&lt;img src="http://file2.podfm.ru/29/296/2969/29693/images/lentava_34720_1_62.jpg" align=left hspace="10" &gt;"АРТ РОКС" — авторская программа Алексея Рыбина, посвященная специфическим музыкальным направлениям в рок-музыке.&lt;br /&gt; &lt;br /&gt; Выходит по средам и пятницам в полночь на "Фонтанка ФМ".</description>
+<guid>http://artrocks.podfm.ru/</guid>
+<pubDate>Mon, 03 Sep 2012 09:56:23 +0400</pubDate>
+<link>http://artrocks.podfm.ru/</link>
+<podfm:linkrss>http://artrocks.podfm.ru/rss/rss.xml</podfm:linkrss>
+<category>Музыка</category>
+</item>
+<item>
+<title shortTitle="Терра Мобиле">Терра Мобиле</title>
+<description shortDescription="Автомобильное ток-шоу.">&lt;img src="http://file2.podfm.ru/29/296/2969/29693/images/lentava_34721_1_15.jpg" align=left hspace="10" &gt;С начала 2003 года в эфире радиостанции Радио-Рокс в Санкт Петербурге появилась интересная и необычная радиопрограмма под несколько странным названием ТЕРРА МОБИЛЕ.&lt;br /&gt; &lt;br /&gt; Построенная в режиме интерактивного общения с радиослушателями, передача представляет собой беседы на автомобильные темы, подобранные в необычном ключе – то есть не стандартный набор информации о новых моделях машин или повсеместные советы бывалых о том, как заменить проколотое колесо, а попытка осмыслить место автомобиля в нашей с вами повседневной жизни  в философском ключе!&lt;br /&gt; &lt;br /&gt; Такие проблемы как зависимость аварийности на дорогах от стресса, получаемого водителями в результате ужесточающегося движения в городе, или  такое – Автомобиль и Женщина – совместимо или нет? Или – мистика и автомобиль – загадочные случаи с водителями  по их же рассказам в эфире нашей радиостанции ?&lt;br /&gt; &lt;br /&gt;  Причем необходимо отметить то обстоятельство, что в течении двухчасового эфира на телефон в студии поступает огромное  количество звонков от автомобилистов, прямо с улиц Петербурга, по мобильным телефонам наши слушатели стараются принять участие в обсуждении тематики программы!</description>
+<guid>http://terramobile.podfm.ru/</guid>
+<pubDate>Mon, 03 Sep 2012 09:56:23 +0400</pubDate>
+<link>http://terramobile.podfm.ru/</link>
+<podfm:linkrss>http://terramobile.podfm.ru/rss/rss.xml</podfm:linkrss>
+<category>Автомобили</category>
+</item>
+<item>
+<title shortTitle="Главрадио">Главрадио</title>
+<description shortDescription="Главные новости и главные ньюсмейкеры.">&lt;img src="http://file2.podfm.ru/30/300/3003/30039/images/lentava_35070_1_48.jpg" align=left hspace="10" &gt;Работают трансляционные сети радио "Маяк", "Вести ФМ" и "Радио России". Главные радиоведущие страны: Михаил Юрьев, Михаил Леонтьев и Анатолий Кузичев. Главные новости. И главные ньюсмейкеры. По пятницам, в 19:10.</description>
+<guid>http://glavradio.podfm.ru/</guid>
+<pubDate>Mon, 03 Sep 2012 09:56:23 +0400</pubDate>
+<link>http://glavradio.podfm.ru/</link>
+<podfm:linkrss>http://glavradio.podfm.ru/rss/rss.xml</podfm:linkrss>
+<category>Политика</category>
+</item>
+<item>
+<title shortTitle="Вам слово">Вам слово</title>
+<description shortDescription="Мнения экспертов относительно актуальных новостей.">&lt;img src="http://file2.podfm.ru/20/200/2005/20058/images/lentava_23226_1_33.jpg" align=left hspace="10" &gt;"Вам слово" — интерактивная программа Русской службы Би-би-си. В этой программе вы можете обсудить текущие события, а также услышать мнения экспертов относительно волнующих вас новостей.&lt;br /&gt; Если вы хотите высказать свое мнение в программе, вы можете оставить свои контактные данные по адресу &lt;u&gt;russian@bbc.co.uk&lt;/u&gt;, и продюсер программы свяжется с вами. Вы также можете позвонить в прямой эфир по телефонам:&lt;br /&gt; +7 495 220 2323 (Москва)&lt;br /&gt; +7 911 220 2323 (Петербург)&lt;br /&gt; SMS: + 7 903 797 6010&lt;br /&gt; Программа "Вам слово" выходит в интернет-эфир на сайте bbcrussian.com (гиперссылка на &lt;a rel="nofollow" href="http://bbc.co.uk/russian)" target="_blank"&gt;http://bbc.co.uk/russian)&lt;/a&gt; ежедневно по будням с 16:30 до 17:00 по лондонскому времени (с 19:30 до 20:00 МСК).&lt;br /&gt; Обращаем ваше внимание на то, что некоторые музыкальные фрагменты, звучащие в программе, сокращены в соответствии с условиями соблюдения авторских прав.</description>
+<guid>http://vamslovo.podfm.ru/</guid>
+<pubDate>Mon, 03 Sep 2012 09:56:23 +0400</pubDate>
+<link>http://vamslovo.podfm.ru/</link>
+<podfm:linkrss>http://vamslovo.podfm.ru/rss/rss.xml</podfm:linkrss>
+<category>Политика</category>
+</item>
+<item>
+<title shortTitle="БибиСева">БибиСева</title>
+<description shortDescription="Новости с человеческим лицом.">&lt;img src="http://file2.podfm.ru/20/200/2005/20058/images/lentava_23228_1_35.jpg" align=left hspace="10" &gt;Девиз программы "БибиСева" — новости с человеческим лицом. Легендарный ведущий Сева Новгородцев ежедневно обсуждает с гостями программы актуальные события из самых разных стран и различных сфер жизни.&lt;br /&gt; По будням слушайте программу "БибиСева" с 16:00 до 16:30 по лондонскому времени (с 20:00 до 20:30 МСК) в прямом интернет-эфире на сайте &lt;A HREF="http://bbc.co.uk/russian" rel=nofollow target=_blank&gt;bbcrussian.com&lt;/A&gt;.&lt;br /&gt; Вы можете автоматически получать лучшее из последнего выпуска программы, подписавшись на подкаст.&lt;br /&gt; &lt;br /&gt; Обращаем ваше внимание на то, что некоторые музыкальные фрагменты, звучащие в программе, сокращены в соответствии с условиями соблюдения авторских прав.</description>
+<guid>http://bbseva.podfm.ru/</guid>
+<pubDate>Mon, 03 Sep 2012 09:56:23 +0400</pubDate>
+<link>http://bbseva.podfm.ru/</link>
+<podfm:linkrss>http://bbseva.podfm.ru/rss/rss.xml</podfm:linkrss>
+<category>Новости</category>
+</item>
+<item>
+<title shortTitle="Пятый этаж">Пятый этаж</title>
+<description shortDescription="События уходящей и грядущей недели под необычным углом.">&lt;img src="http://file2.podfm.ru/20/200/2005/20058/images/lentava_23229_1_14.jpg" align=left hspace="10" &gt;Программа "Пятый этаж" - это попытка взглянуть на события уходящей и грядущей недели под необычным углом. Обозреватели и гости "Пятого этажа" комментируют события в мире политики, экономики и культуры.&lt;br /&gt; "Пятый этаж" - это исконный ареал культуролога Александра Кана, не пропускающего ни одного мало-мальски значимого события, будь то новое кино, книга, выставка или концерт. Общее руководство по комплексному методу осуществляет ведущий Михаил Смотряев.&lt;br /&gt; По выходным слушайте программу "Пятый этаж" с 16:00 до 17:30 по лондонскому времени (с 19:00 до 20:30 МСК) в прямом интернет-эфире на сайте &lt;A HREF="http://bbc.co.uk/russian" rel=nofollow target=_blank&gt;bbcrussian.com&lt;/A&gt;.</description>
+<guid>http://5floor.podfm.ru/</guid>
+<pubDate>Mon, 03 Sep 2012 09:56:23 +0400</pubDate>
+<link>http://5floor.podfm.ru/</link>
+<podfm:linkrss>http://5floor.podfm.ru/rss/rss.xml</podfm:linkrss>
+<category>Политика</category>
+</item>
+<item>
+<title shortTitle="Английский по радио">Английский по радио</title>
+<description shortDescription="Обучающие программы Би-би-си.">&lt;img src="http://file2.podfm.ru/20/200/2005/20058/images/lentava_33769_1_87.jpg" align=left hspace="10" &gt;Обучающие программы Би-би-си по английскому языку рассчитаны на людей с разными уровнями языковой подготовки.&lt;br /&gt; В подкасте Русской службы Би-би-си - лучшие программы цикла "Английский язык по радио" разных лет (ведущая Рита Белова).&lt;br /&gt; Мы рекомендуем этот подкаст школьникам, студентам, бизнесменам и всем тем, кто хотел бы овладеть разговорным английским языком.&lt;br /&gt; Вы можете автоматически получать языковые образовательные программы, подписавшись на наш подкаст или посетить раздел &lt;A HREF="http://www.bbc.co.uk/russian/learning_english/" rel=nofollow target=_blank&gt;уроки английского на сайте Русской службы Би-би-си&lt;/A&gt;.</description>
+<guid>http://bbc-russian.podfm.ru/englishonradio/</guid>
+<pubDate>Mon, 03 Sep 2012 09:56:23 +0400</pubDate>
+<link>http://bbc-russian.podfm.ru/englishonradio/</link>
+<podfm:linkrss>http://bbc-russian.podfm.ru/englishonradio/rss/rss.xml</podfm:linkrss>
+<category>Образование</category>
+</item>
+<item>
+<title shortTitle="Русский рок">Русский рок</title>
+<description shortDescription="Интервью с российскими музыкантами.">&lt;img src="http://file2.podfm.ru/29/296/2969/29693/images/lentava_34724_1_24.jpg" align=left hspace="10" &gt;Интервью с российскими музыкантами, многочисленные гостевые эфиры с участием продюсеров, рок-фотографов, артистов театра и кино, меломанов-коллекционеров музыки и так далее. Знаменитая радиопередача Жени ГЛЮКК, известная слушателям FM диапазона Санкт-Петербурга с времен старого доброго РАДИО РОКС 102FM&lt;br /&gt;  Зачастую в прямом эфире можно услышать не только уникальную информацию о рок-концертах, новых альбомах и синглах,  создании новых рок-групп и прочем, но и услышать музыкальные фрагменты в живом акустическом исполнении в студии радиостанции Фонтанка ФМ</description>
+<guid>http://fontan.podfm.ru/russianrock/</guid>
+<pubDate>Mon, 03 Sep 2012 09:56:23 +0400</pubDate>
+<link>http://fontan.podfm.ru/russianrock/</link>
+<podfm:linkrss>http://fontan.podfm.ru/russianrock/rss/rss.xml</podfm:linkrss>
+<category>Музыка</category>
+</item>
+<item>
+<title shortTitle="Радиус Вселенной">Радиус Вселенной</title>
+<description shortDescription="Фантастические рассказы в оригинальной озвучке.">&lt;img src="http://file2.podfm.ru/25/252/2521/25219/images/lentava_33629_1_11.jpg" align=left hspace="10" &gt;Радиус Вселенной (PB) - это современный, динамично развивающийся проект, объединяющий творческих людей, чья цель - создание аудиорассказов, сочетающих исполнительское мастерство, грамотное сведение, взвешенный подход в выборе материала, и открытость к пожеланиям аудитории.&lt;br /&gt; &lt;br /&gt; Вы можете прислать текст, заслуживающий по-вашему мнению быть озвученным и скомпилированным в оригинальной манере PB, и в самом скором будущем познакомиться с ним вновь, узнав, как его увидели и осмыслили исполнитель, музыкант и художник.&lt;br /&gt; &lt;br /&gt; PB - это всегда новый, всегда оригинальный, и всегда качественный материал, это новый звук и новая реальность для знакомых вам книг.&lt;br /&gt; &lt;br /&gt; Страничка &lt;A HREF="http://vk.com/radvse" rel=nofollow target=_blank&gt;ВКонтакте&lt;/A&gt;.</description>
+<guid>http://rv.podfm.ru/</guid>
+<pubDate>Mon, 03 Sep 2012 09:56:23 +0400</pubDate>
+<link>http://rv.podfm.ru/</link>
+<podfm:linkrss>http://rv.podfm.ru/rss/rss.xml</podfm:linkrss>
+<category>Аудиокниги</category>
+</item>
+<item>
+<title shortTitle="Гость студии">Гость студии</title>
+<description shortDescription="Актуальные интервью из студии ФонтанкиFM.">&lt;img src="http://file2.podfm.ru/29/296/2969/29693/images/lentava_34726_1_29.jpg" align=left hspace="10" &gt;Интервью с известными петербуржцами</description>
+<guid>http://fontan.podfm.ru/guest/</guid>
+<pubDate>Mon, 03 Sep 2012 09:56:23 +0400</pubDate>
+<link>http://fontan.podfm.ru/guest/</link>
+<podfm:linkrss>http://fontan.podfm.ru/guest/rss/rss.xml</podfm:linkrss>
+<category>Культура и искусство </category>
+</item>
+<item>
+<title shortTitle="Персонажи">Персонажи</title>
+<description shortDescription="Герои города Питера.">&lt;img src="http://file2.podfm.ru/25/259/2592/25924/images/lentava_38177_1_88.jpg" align=left hspace="10" &gt;У Петербурга отлично получаются 2 взаимодополняющие позиции: дождь и персонажи! Про дождь любой петербуржец защитит диссертацию, а персонажи любопытны во все времена. &lt;br /&gt; &lt;br /&gt; Серия передач с одноименным названием посвящена людям, чья "душа в перьях", голова в облаке идей,  а поступки "из ряда вон" ... в хорошем смысле.  &lt;br /&gt; &lt;br /&gt; Ведущие Анита и Мс Moonstar  конкретно  и подробно знакомятся с яркими представителями человечества: в первой половине программы обсуждение темы, которая зацепила и чьим автором является персонаж, вторая же часть программы посвящена личности гостя, его перьям, облаку и "изрядавону"... в хорошем смысле.</description>
+<guid>http://person.podfm.ru/</guid>
+<pubDate>Mon, 03 Sep 2012 09:56:23 +0400</pubDate>
+<link>http://person.podfm.ru/</link>
+<podfm:linkrss>http://person.podfm.ru/rss/rss.xml</podfm:linkrss>
+<category>Развлечения</category>
+</item>
+</channel>
+</rss>

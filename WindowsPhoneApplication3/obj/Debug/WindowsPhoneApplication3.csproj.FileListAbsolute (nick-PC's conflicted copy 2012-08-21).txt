@@ -1,0 +1,13 @@
+C:\Users\nick\Documents\Expression\Blend 4\Projects\WindowsPhoneApplication3\WindowsPhoneApplication3\Bin\Debug\ApplicationIcon.png
+C:\Users\nick\Documents\Expression\Blend 4\Projects\WindowsPhoneApplication3\WindowsPhoneApplication3\Bin\Debug\Background.png
+C:\Users\nick\Documents\Expression\Blend 4\Projects\WindowsPhoneApplication3\WindowsPhoneApplication3\Bin\Debug\WindowsPhoneApplication3.dll
+C:\Users\nick\Documents\Expression\Blend 4\Projects\WindowsPhoneApplication3\WindowsPhoneApplication3\Bin\Debug\WindowsPhoneApplication3.pdb
+C:\Users\nick\Documents\Expression\Blend 4\Projects\WindowsPhoneApplication3\WindowsPhoneApplication3\Bin\Debug\AppManifest.xaml
+C:\Users\nick\Documents\Expression\Blend 4\Projects\WindowsPhoneApplication3\WindowsPhoneApplication3\Bin\Debug\WindowsPhoneApplication3.xap
+C:\Users\nick\Documents\Expression\Blend 4\Projects\WindowsPhoneApplication3\WindowsPhoneApplication3\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\nick\Documents\Expression\Blend 4\Projects\WindowsPhoneApplication3\WindowsPhoneApplication3\obj\Debug\App.g.cs
+C:\Users\nick\Documents\Expression\Blend 4\Projects\WindowsPhoneApplication3\WindowsPhoneApplication3\obj\Debug\MainPage.g.cs
+C:\Users\nick\Documents\Expression\Blend 4\Projects\WindowsPhoneApplication3\WindowsPhoneApplication3\obj\Debug\WindowsPhoneApplication3.g.resources
+C:\Users\nick\Documents\Expression\Blend 4\Projects\WindowsPhoneApplication3\WindowsPhoneApplication3\obj\Debug\WindowsPhoneApplication3.dll
+C:\Users\nick\Documents\Expression\Blend 4\Projects\WindowsPhoneApplication3\WindowsPhoneApplication3\obj\Debug\WindowsPhoneApplication3.pdb
+C:\Users\nick\Documents\Expression\Blend 4\Projects\WindowsPhoneApplication3\WindowsPhoneApplication3\obj\Debug\XapCacheFile.xml
