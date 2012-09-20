@@ -1,6 +1,9 @@
 WindowsPhoneApplication3/Bin/
 WindowsPhoneApplication3/obj/
 
+AudioPlaybackAgent1/Bin/
+AudioPlaybackAgent1/obj/
+
 #User Specific Files
 *.user
 *.suo

@@ -127,3 +127,5 @@ C:\Users\nick\Documents\GitHub\WPOnLinePlayer\WindowsPhoneApplication3\obj\Debug
 C:\Users\nick\Documents\GitHub\WPOnLinePlayer\WindowsPhoneApplication3\obj\Debug\WindowsPhoneApplication3.dll
 C:\Users\nick\Documents\GitHub\WPOnLinePlayer\WindowsPhoneApplication3\obj\Debug\WindowsPhoneApplication3.pdb
 C:\Users\nick\Documents\GitHub\WPOnLinePlayer\WindowsPhoneApplication3\obj\Debug\XapCacheFile.xml
+C:\Users\nick\Documents\GitHub\WPOnLinePlayer\WindowsPhoneApplication3\Bin\Debug\AudioPlaybackAgent1.dll
+C:\Users\nick\Documents\GitHub\WPOnLinePlayer\WindowsPhoneApplication3\Bin\Debug\AudioPlaybackAgent1.pdb

@@ -65,7 +65,10 @@
                                 Grid.Row="1" Grid.Column="0"  Grid.ColumnSpan="2" Grid.RowSpan="2"
                                 TextWrapping="Wrap" Margin="12,0,0,0" Text="{Binding Summary.Text, Converter={StaticResource RssTextTrimmer}}" />
                                 <Image Source="img/Add.png" Grid.Row="1" Grid.Column="2" Margin="12,12,0,0" HorizontalAlignment="Right" VerticalAlignment="Bottom"/>
-                                <Image Source="img/Play.png" Grid.Row="2" Grid.Column="2" Margin="12,12,0,0" HorizontalAlignment="Right" VerticalAlignment="Bottom"/>
+                                <Image Source="img/Play.png" Grid.Row="2" Grid.Column="2" Margin="12,12,0,0" HorizontalAlignment="Right" VerticalAlignment="Bottom"  ManipulationStarted="ImgPlay_ManipulationStarted"/>
+                                <!--<Button x:Name="playButton" Click="playButton_Click"  Grid.Row="2" Grid.Column="2" >
+                                    <Image Source="img/Play.png" Width="60" Height="60"/>
+                                </Button>-->
                             </Grid>
                         </StackPanel>
                     </DataTemplate>

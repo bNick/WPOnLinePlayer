@@ -16,6 +16,7 @@ using Microsoft.Phone.Shell;
 using System.ServiceModel.Syndication;
 using System.IO;
 using System.Xml;
+using Microsoft.Phone.BackgroundAudio;
 
 namespace WindowsPhoneApplication3
 {
@@ -84,6 +85,24 @@ namespace WindowsPhoneApplication3
                 // Bind the list of SyndicationItems to our ListBox
                 LBAll.ItemsSource = feed.Items;
             });
+        }
+
+        //private void playButton_Click(object sender, RoutedEventArgs e)
+        //{
+        //    MessageBox.Show("play");
+        //}
+
+        private void ImgPlay_ManipulationStarted(object sender, ManipulationStartedEventArgs e)
+        {
+            //MessageBox.Show("play");
+            if (PlayState.Playing == BackgroundAudioPlayer.Instance.PlayerState)
+            {
+                BackgroundAudioPlayer.Instance.Pause();
+            }
+            else
+            {
+                BackgroundAudioPlayer.Instance.Play();
+            }
         }
     }
 }

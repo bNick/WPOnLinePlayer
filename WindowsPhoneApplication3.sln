@@ -1,7 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsPhoneApplication3", "WindowsPhoneApplication3\WindowsPhoneApplication3.csproj", "{71ef8cc7-5cb5-4353-bb70-e9b3f9d54498}"
+# Visual Studio 2010 Express for Windows Phone
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsPhoneApplication3", "WindowsPhoneApplication3\WindowsPhoneApplication3.csproj", "{71EF8CC7-5CB5-4353-BB70-E9B3F9D54498}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AudioPlaybackAgent1", "AudioPlaybackAgent1\AudioPlaybackAgent1.csproj", "{CAEAA0A3-01A2-4E74-8A99-71194EC58ACF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,5 +17,12 @@ Global
 		{71EF8CC7-5CB5-4353-BB70-E9B3F9D54498}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71EF8CC7-5CB5-4353-BB70-E9B3F9D54498}.Release|Any CPU.Build.0 = Release|Any CPU
 		{71EF8CC7-5CB5-4353-BB70-E9B3F9D54498}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{CAEAA0A3-01A2-4E74-8A99-71194EC58ACF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAEAA0A3-01A2-4E74-8A99-71194EC58ACF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAEAA0A3-01A2-4E74-8A99-71194EC58ACF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAEAA0A3-01A2-4E74-8A99-71194EC58ACF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal
