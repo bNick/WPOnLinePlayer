@@ -1,2 +1,7 @@
-WindowsPhoneApplication3/Bin
-WindowsPhoneApplication3/obj/Debug
+WindowsPhoneApplication3/Bin/
+WindowsPhoneApplication3/obj/
+
+#User Specific Files
+*.user
+*.suo
+
