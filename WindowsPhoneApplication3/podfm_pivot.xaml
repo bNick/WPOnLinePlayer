@@ -26,29 +26,39 @@
             <!--Первый элемент Pivot-->
             <controls:PivotItem Header="Рубрики">               
                 <Grid>
-                    <ListBox x:Name="LBRubriki" SelectionChanged="LBRubriki_SelectionChanged">
-                        <TextBlock x:Name="All" FontSize="26">ВСЕ</TextBlock>
-                        <TextBlock>Аудиокниги</TextBlock>
-                        <TextBlock>Аудиогиды</TextBlock>
-                        <TextBlock>Политика</TextBlock>
-                        <TextBlock>Бизнес</TextBlock>
-                        <TextBlock>Технологии</TextBlock>
-                        <TextBlock>Автомобили</TextBlock>
-                        <TextBlock>Карьера</TextBlock>
-                        <TextBlock>Наука</TextBlock>
-                        <TextBlock>Интернет</TextBlock>
-                        <TextBlock>Кино</TextBlock>
-                        <TextBlock>Культура и искуство</TextBlock>
-                        <TextBlock>Музыка</TextBlock>
-                        <TextBlock>Хобби и увлечения</TextBlock>
-                        <TextBlock>Развлечения</TextBlock>
-                        <TextBlock>Путешествия</TextBlock>
-                        <TextBlock>История</TextBlock>
-                        <TextBlock>Здоровье</TextBlock>
-                        <TextBlock>Новости</TextBlock>
-                        <TextBlock>Красота</TextBlock>
-                        <TextBlock>Спорт</TextBlock>
-                        <TextBlock>Образование</TextBlock>
+                    <ListBox x:Name="LBRubriki" Margin="0,0,-12,0" ItemsSource="{Binding Items}" SelectionChanged="LBRubriki_SelectionChanged">
+                        <!--<StackPanel Margin="0,0,0,17">
+                        <TextBlock x:Name="All"  TextWrapping="NoWrap" Margin="12,0,0,0" Style="{StaticResource PhoneTextExtraLargeStyle}">ВСЕ</TextBlock>
+                        <TextBlock  TextWrapping="NoWrap" Margin="12,0,0,0" Style="{StaticResource PhoneTextExtraLargeStyle}">Аудиокниги</TextBlock>
+                        <TextBlock  TextWrapping="NoWrap" Margin="12,0,0,0" Style="{StaticResource PhoneTextExtraLargeStyle}">Аудиогиды</TextBlock>
+                        <TextBlock  TextWrapping="NoWrap" Margin="12,0,0,0" Style="{StaticResource PhoneTextExtraLargeStyle}">Политика</TextBlock>
+                        <TextBlock  TextWrapping="NoWrap" Margin="12,0,0,0" Style="{StaticResource PhoneTextExtraLargeStyle}">Бизнес</TextBlock>
+                        <TextBlock  TextWrapping="NoWrap" Margin="12,0,0,0" Style="{StaticResource PhoneTextExtraLargeStyle}">Технологии</TextBlock>
+                        <TextBlock  TextWrapping="NoWrap" Margin="12,0,0,0" Style="{StaticResource PhoneTextExtraLargeStyle}">Автомобили</TextBlock>
+                        <TextBlock  TextWrapping="NoWrap" Margin="12,0,0,0" Style="{StaticResource PhoneTextExtraLargeStyle}">Карьера</TextBlock>
+                        <TextBlock  TextWrapping="NoWrap" Margin="12,0,0,0" Style="{StaticResource PhoneTextExtraLargeStyle}">Наука</TextBlock>
+                        <TextBlock  TextWrapping="NoWrap" Margin="12,0,0,0" Style="{StaticResource PhoneTextExtraLargeStyle}">Интернет</TextBlock>
+                        <TextBlock  TextWrapping="NoWrap" Margin="12,0,0,0" Style="{StaticResource PhoneTextExtraLargeStyle}">Кино</TextBlock>
+                        <TextBlock  TextWrapping="NoWrap" Margin="12,0,0,0" Style="{StaticResource PhoneTextExtraLargeStyle}">Культура и искуство</TextBlock>
+                        <TextBlock  TextWrapping="NoWrap" Margin="12,0,0,0" Style="{StaticResource PhoneTextExtraLargeStyle}">Музыка</TextBlock>
+                        <TextBlock  TextWrapping="NoWrap" Margin="12,0,0,0" Style="{StaticResource PhoneTextExtraLargeStyle}">Хобби и увлечения</TextBlock>
+                        <TextBlock  TextWrapping="NoWrap" Margin="12,0,0,0" Style="{StaticResource PhoneTextExtraLargeStyle}">Развлечения</TextBlock>
+                        <TextBlock  TextWrapping="NoWrap" Margin="12,0,0,0" Style="{StaticResource PhoneTextExtraLargeStyle}">Путешествия</TextBlock>
+                        <TextBlock  TextWrapping="NoWrap" Margin="12,0,0,0" Style="{StaticResource PhoneTextExtraLargeStyle}">История</TextBlock>
+                        <TextBlock  TextWrapping="NoWrap" Margin="12,0,0,0" Style="{StaticResource PhoneTextExtraLargeStyle}">Здоровье</TextBlock>
+                        <TextBlock  TextWrapping="NoWrap" Margin="12,0,0,0" Style="{StaticResource PhoneTextExtraLargeStyle}">Новости</TextBlock>
+                        <TextBlock  TextWrapping="NoWrap" Margin="12,0,0,0" Style="{StaticResource PhoneTextExtraLargeStyle}">Красота</TextBlock>
+                        <TextBlock  TextWrapping="NoWrap" Margin="12,0,0,0" Style="{StaticResource PhoneTextExtraLargeStyle}">Спорт</TextBlock>
+                        <TextBlock  TextWrapping="NoWrap" Margin="12,0,0,0" Style="{StaticResource PhoneTextExtraLargeStyle}">Образование</TextBlock>
+                        </StackPanel>-->
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel Margin="0,0,0,17">
+                                    <TextBlock Text="{Binding Category}" TextWrapping="NoWrap" Margin="12,0,0,0" Style="{StaticResource PhoneTextExtraLargeStyle}"/>
+                                    <!--<TextBlock Text="{Binding LineThree}" TextWrapping="NoWrap" Margin="12,-6,0,0" Style="{StaticResource PhoneTextSubtleStyle}"/>-->
+                                </StackPanel>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
                     </ListBox>
                 </Grid>
             </controls:PivotItem>

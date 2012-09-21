@@ -18,6 +18,20 @@ namespace WindowsPhoneApplication3
 {
     public partial class App : Application
     {
+        private static MainViewModel viewModel = null;
+
+        public static MainViewModel ViewModel
+        {
+            get
+            {
+                // Отложить создание модели представления до необходимости
+                if (viewModel == null)
+                    viewModel = new MainViewModel();
+
+                return viewModel;
+            }
+        }
+        
         /// <summary>
         /// Provides easy access to the root frame of the Phone Application.
         /// </summary>
@@ -34,6 +48,7 @@ namespace WindowsPhoneApplication3
         /// </summary>
         public App()
         {
+
             // Global handler for uncaught exceptions. 
             // Note that exceptions thrown by ApplicationBarItem.Click will not get caught here.
             UnhandledException += Application_UnhandledException;
@@ -69,6 +84,10 @@ namespace WindowsPhoneApplication3
         // This code will not execute when the application is first launched
         private void Application_Activated(object sender, ActivatedEventArgs e)
         {
+            if (!App.ViewModel.IsDataLoaded)
+            {
+                App.ViewModel.LoadData();
+            }
         }
 
         // Code to execute when the application is deactivated (sent to background)

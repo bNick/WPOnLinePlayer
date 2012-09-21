@@ -18,8 +18,20 @@ namespace WindowsPhoneApplication3
         public podfm_pivote()
         {
             InitializeComponent();
+            DataContext = App.ViewModel;
+            this.Loaded += new RoutedEventHandler(MainPage_Loaded);
         }
 
+        // Загрузка данных для элементов ViewModel
+        private void MainPage_Loaded(object sender, RoutedEventArgs e)
+        {
+            if (!App.ViewModel.IsDataLoaded)
+            {
+                App.ViewModel.LoadData();
+            }
+        }
+        
+        
         private void LBRubriki_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             if (LBRubriki.SelectedIndex == 0)
