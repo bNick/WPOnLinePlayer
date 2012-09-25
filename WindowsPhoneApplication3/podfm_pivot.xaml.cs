@@ -42,7 +42,6 @@ namespace WindowsPhoneApplication3
 
         private void LoadPodFMPodcastList()
         {
-            //MessageBox.Show("Loaded!!!");
             NavigationService.Navigate(new Uri("/podfmpodcastlist.xaml", UriKind.Relative));
         }
     }
