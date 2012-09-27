@@ -118,10 +118,8 @@ C:\Users\nick\Documents\GitHub\WPOnLinePlayer\WindowsPhoneApplication3\Bin\Debug
 C:\Users\nick\Documents\GitHub\WPOnLinePlayer\WindowsPhoneApplication3\Bin\Debug\zh-Hant\System.ServiceModel.Syndication.resources.dll
 C:\Users\nick\Documents\GitHub\WPOnLinePlayer\WindowsPhoneApplication3\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\nick\Documents\GitHub\WPOnLinePlayer\WindowsPhoneApplication3\obj\Debug\App.g.i.cs
-C:\Users\nick\Documents\GitHub\WPOnLinePlayer\WindowsPhoneApplication3\obj\Debug\MainPage.g.i.cs
 C:\Users\nick\Documents\GitHub\WPOnLinePlayer\WindowsPhoneApplication3\obj\Debug\Page2.g.i.cs
 C:\Users\nick\Documents\GitHub\WPOnLinePlayer\WindowsPhoneApplication3\obj\Debug\podfmpodcastlist.g.i.cs
-C:\Users\nick\Documents\GitHub\WPOnLinePlayer\WindowsPhoneApplication3\obj\Debug\PivotPage1.g.i.cs
 C:\Users\nick\Documents\GitHub\WPOnLinePlayer\WindowsPhoneApplication3\obj\Debug\podfm_pivot.g.i.cs
 C:\Users\nick\Documents\GitHub\WPOnLinePlayer\WindowsPhoneApplication3\obj\Debug\WindowsPhoneApplication3.g.resources
 C:\Users\nick\Documents\GitHub\WPOnLinePlayer\WindowsPhoneApplication3\obj\Debug\WindowsPhoneApplication3.dll

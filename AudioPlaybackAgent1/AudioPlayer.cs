@@ -18,6 +18,7 @@ namespace AudioPlaybackAgent1
         /// Статические поля могут использоваться для распределения состояния между экземплярами AudioPlayer
         /// или для взаимодействия с агентом потокового аудио.
         /// </remarks>
+        private TimeSpan position;
         public AudioPlayer()
         {
             if (!_classInitialized)
@@ -28,6 +29,8 @@ namespace AudioPlaybackAgent1
                 {
                     Application.Current.UnhandledException += AudioPlayer_UnhandledException;
                 });
+                //Podcast pc = new Podcast();
+                position = TimeSpan.Zero;
             }
         }
 
@@ -75,6 +78,7 @@ namespace AudioPlaybackAgent1
                 case PlayState.Stopped:
                     break;
                 case PlayState.Paused:
+                    //здесь нужно запомнить текущую позицию для восстановления воспроизведения
                     break;
                 case PlayState.Playing:
                     break;
@@ -117,16 +121,29 @@ namespace AudioPlaybackAgent1
                         List<string> atrack = DeserializeFromIsolatedStorage<List<string>>("podcast.link");
                         
                         //AudioTrack pcast = new
-                        
-                        AudioTrack podcast = new AudioTrack(new Uri(atrack[0], UriKind.Absolute),
+                        Uri track_url = new Uri(atrack[0], UriKind.Absolute);
+                        if (player.Track == null)
+                        {
+                            AudioTrack podcast = new AudioTrack (track_url,
                             atrack[1],
                             atrack[2],
                             atrack[3],
                             null);
-                        //player.Track.Source = new System.Uri("http://file2.podfm.ru/18/181/1810/18104/mp3/2012_008_Kosmos_i_paleontologija.mp3", UriKind.Absolute);
-                        player.Track = podcast;
-                        player.Play();
 
+                            player.Track = podcast;
+                        }
+                        else if (player.Track.Source != track_url)
+                        {
+                            AudioTrack podcast = new AudioTrack(track_url,
+                                atrack[1],
+                                atrack[2],
+                                atrack[3],
+                                null);
+                            player.Track = podcast;
+                        }
+                        
+                        player.Play();
+                        break;
                     }
                     break;
                 case UserAction.Stop:
@@ -255,5 +272,14 @@ namespace AudioPlaybackAgent1
             }
         }
     }
+
+    public class Podcast 
+    {
+        public TimeSpan position { get; set; }
+        
+        public Podcast()
+        {
+            TimeSpan position = TimeSpan.Zero;
+        }
+    }
 }
-//http://file2.podfm.ru/18/181/1810/18104/mp3/2012_008_Kosmos_i_paleontologija.mp3
