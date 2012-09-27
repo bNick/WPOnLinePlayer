@@ -17,6 +17,10 @@ using System.ServiceModel.Syndication;
 using System.IO;
 using System.Xml;
 using Microsoft.Phone.BackgroundAudio;
+//using System.IO;
+using System.IO.IsolatedStorage;
+//using System.Xml;
+using System.Xml.Serialization;
 
 namespace WindowsPhoneApplication3
 {
@@ -101,7 +105,36 @@ namespace WindowsPhoneApplication3
             }
             else
             {
+                //AudioTrack podcast = new AudioTrack(new Uri("http://file2.podfm.ru/18/181/1810/18104/mp3/2012_008_Kosmos_i_paleontologija.mp3", UriKind.Absolute),
+                //            "Episode 29",
+                //            "Windows Phone Radio",
+                //            "Windows Phone Radio Podcast",
+                //            null);
+                SyndicationItem podcastItem = (SyndicationItem)LBAll.SelectedItem;
+                //string urial = podcastItem.Links[0].Uri.ToString();
+                List<string> track = new List<string>();
+                track.Add(podcastItem.Links[1].Uri.ToString());
+                track.Add(podcastItem.Title.Text);
+                track.Add("Windows Phone Radio");
+                track.Add("Windows Phone Radio Podcast");
+
+                SerializeToIsolatedStorage<List<string>>(track, "podcast.link");
                 BackgroundAudioPlayer.Instance.Play();
+            }
+        }
+
+        private static void SerializeToIsolatedStorage<T>(T obj, string filename)
+        {
+            if ((obj == null) || string.IsNullOrEmpty(filename))
+            {
+                return;
+            }
+
+            using (var store = IsolatedStorageFile.GetUserStoreForApplication())
+            using (var stream = store.CreateFile(filename))
+            using (var writer = XmlWriter.Create(stream))
+            {
+                new XmlSerializer(obj.GetType()).Serialize(writer, obj);
             }
         }
     }
