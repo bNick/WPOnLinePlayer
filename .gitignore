@@ -1,10 +1,23 @@
-WindowsPhoneApplication3/Bin/
-WindowsPhoneApplication3/obj/
+#WindowsPhoneApplication3\Bin\*\*
+#WindowsPhoneApplication3\obj\*\*
 
-AudioPlaybackAgent1/Bin/
-AudioPlaybackAgent1/obj/
+#AudioPlaybackAgent1\Bin\
+#AudioPlaybackAgent1\obj\
 
 #User Specific Files
+#*.user
+#*.suo
+
+[Oo]bj
+[Bb]in
 *.user
 *.suo
-
+*.[Cc]ache
+*.bak
+*.ncb
+*.log 
+*.DS_Store
+[Tt]humbs.db 
+_ReSharper.*
+*.resharper
+Ankh.NoLoad
