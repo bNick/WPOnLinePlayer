@@ -1,6 +1,11 @@
 ﻿using System;
 using System.Windows;
 using Microsoft.Phone.BackgroundAudio;
+using System.IO;
+using System.IO.IsolatedStorage;
+using System.Xml;
+using System.Xml.Serialization;
+using System.Collections.Generic;
 
 namespace AudioPlaybackAgent1
 {
@@ -109,10 +114,14 @@ namespace AudioPlaybackAgent1
                 case UserAction.Play:
                     if (player.PlayerState != PlayState.Playing)
                     {
-                        AudioTrack podcast = new AudioTrack(new Uri("http://file2.podfm.ru/18/181/1810/18104/mp3/2012_008_Kosmos_i_paleontologija.mp3", UriKind.Absolute),
-                            "Episode 29",
-                            "Windows Phone Radio",
-                            "Windows Phone Radio Podcast",
+                        List<string> atrack = DeserializeFromIsolatedStorage<List<string>>("podcast.link");
+                        
+                        //AudioTrack pcast = new
+                        
+                        AudioTrack podcast = new AudioTrack(new Uri(atrack[0], UriKind.Absolute),
+                            atrack[1],
+                            atrack[2],
+                            atrack[3],
                             null);
                         //player.Track.Source = new System.Uri("http://file2.podfm.ru/18/181/1810/18104/mp3/2012_008_Kosmos_i_paleontologija.mp3", UriKind.Absolute);
                         player.Track = podcast;
@@ -229,6 +238,21 @@ namespace AudioPlaybackAgent1
         protected override void OnCancel()
         {
 
+        }
+
+        private static T DeserializeFromIsolatedStorage<T>(string filename)
+        {
+            if (string.IsNullOrEmpty(filename))
+            {
+                return default(T);
+            }
+
+            using (var store = IsolatedStorageFile.GetUserStoreForApplication())
+            using (var stream = store.OpenFile(filename, FileMode.Open))
+            using (var reader = XmlReader.Create(stream))
+            {
+                return (T)new XmlSerializer(typeof(T)).Deserialize(reader);
+            }
         }
     }
 }
