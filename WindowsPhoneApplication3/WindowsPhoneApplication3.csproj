@@ -69,6 +69,7 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Categories.cs" />
     <Compile Include="ItemViewModel.cs" />
     <Compile Include="MainViewModel.cs" />
     <Compile Include="Page2.xaml.cs">
