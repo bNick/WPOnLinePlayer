@@ -71,9 +71,10 @@
     </Compile>
     <Compile Include="Categories.cs" />
     <Compile Include="ItemViewModel.cs" />
+    <Compile Include="LoadFeed.cs" />
     <Compile Include="MainViewModel.cs" />
-    <Compile Include="Page2.xaml.cs">
-      <DependentUpon>Page2.xaml</DependentUpon>
+    <Compile Include="Episodes.xaml.cs">
+      <DependentUpon>Episodes.xaml</DependentUpon>
     </Compile>
     <Compile Include="RssTextTrimmer.cs" />
     <Compile Include="podfmpodcastlist.xaml.cs">
@@ -90,7 +91,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </ApplicationDefinition>
-    <Page Include="Page2.xaml">
+    <Page Include="Episodes.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

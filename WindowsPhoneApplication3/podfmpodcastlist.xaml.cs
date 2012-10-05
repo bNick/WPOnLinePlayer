@@ -30,14 +30,29 @@ namespace WindowsPhoneApplication3
             IsIndeterminate = true,
             Text = "Загружаем список программ"
         };
+
+        private LoadFeed Loader;
+
         public Page1()
         {
             InitializeComponent();
   
-            loadFeed();
+            //loadFeed();
+
+            Loader = new LoadFeed(this, new System.Uri("http://podfm.ru/rss/programs/rss.xml"), LBAll);
+            Loader.Run();
+            Loader.Loaded += new LoadFeedEvent(UpdateUI);
         }
 
-
+        public void UpdateUI()
+        {
+            Deployment.Current.Dispatcher.BeginInvoke(() =>
+            {
+                // Bind the list of SyndicationItems to our ListBox
+                SyndicationFeed feed = Loader.feed;
+                LBAll.ItemsSource = feed.Items;
+            });
+        }
 
         // Click handler which runs when the 'Load Feed' or 'Refresh Feed' button is clicked. 
         private void loadFeed()
@@ -103,7 +118,7 @@ namespace WindowsPhoneApplication3
         {
             //SyndicationItem i = (SyndicationItem)LBAll.SelectedItem;
             (Application.Current as App).podcastItem = (SyndicationItem)LBAll.SelectedItem;
-            NavigationService.Navigate(new Uri("/page2.xaml", UriKind.Relative));
+            NavigationService.Navigate(new Uri("/Episodes.xaml", UriKind.Relative));
         }
     }
 }

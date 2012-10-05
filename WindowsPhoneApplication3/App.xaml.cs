@@ -16,6 +16,7 @@ using System.ServiceModel.Syndication;
 
 namespace WindowsPhoneApplication3
 {
+    
     public partial class App : Application
     {
         private static MainViewModel viewModel = null;
