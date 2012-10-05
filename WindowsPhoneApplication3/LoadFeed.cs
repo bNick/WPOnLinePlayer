@@ -13,6 +13,7 @@ using Microsoft.Phone.Shell;
 using System.ServiceModel.Syndication;
 using System.IO;
 using System.Xml;
+using Microsoft.Phone.Shell;
 
 namespace WindowsPhoneApplication3
 {
@@ -21,20 +22,15 @@ namespace WindowsPhoneApplication3
     public class LoadFeed
     {
         public event LoadFeedEvent Loaded;
-        
-        public LoadFeed(Page sender, Uri uri, ListBox e)
-        {
-            _sender = sender;
-            _uri = uri;
-            _e = e;
-        }
+        public SyndicationFeed feed { get; set; }
+        private Page _sender { get; set; }
+        private Uri _uri { get; set; }
 
-        //public LoadFeed(Page sender, Uri uri, Page1 e)
-        //{
-        //    _sender = sender;
-        //    _uri = uri;
-        //    _e = e;
-        //}
+        public LoadFeed(Page sender, Uri uri)
+        {
+            _uri = uri;
+            _sender = sender;
+        }
 
         public void Run()
         {
@@ -45,12 +41,7 @@ namespace WindowsPhoneApplication3
             webClient.DownloadStringAsync(_uri);
         }
 
-        public SyndicationFeed feed { get; set; }
-
-        private Page _sender { get; set; }
-        private Uri _uri { get; set; }
-        private ListBox _e { get; set; }
-
+        
         private ProgressIndicator progressIndicator = new ProgressIndicator()
         {
             IsVisible = true,
@@ -73,7 +64,6 @@ namespace WindowsPhoneApplication3
             else
             {
                 // Save the feed into the State property in case the application is tombstoned. 
-                // _sender.State["feed"] = e.Result;
                 progressIndicator.IsVisible = false;
                 UpdateFeedList(e.Result);
             }
@@ -87,15 +77,8 @@ namespace WindowsPhoneApplication3
             feed = SyndicationFeed.Load(xmlReader);
             if (feed != null)
             {
-                //_e.ItemsSource = feed.Items;
-
                 if (Loaded != null) Loaded();
             }
         }
-        //public SyndicationFeed Feed { get; set; }
-        //public void WorkDone() 
-        //{
-        //    feed = _e.ItemsSource;
-        //}
     }
 }

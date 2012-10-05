@@ -26,12 +26,6 @@ namespace WindowsPhoneApplication3
 {
     public partial class episodes : PhoneApplicationPage
     {
-        //private ProgressIndicator progressIndicator = new ProgressIndicator()
-        //{
-        //    IsVisible = true,
-        //    IsIndeterminate = true,
-        //    Text = "Загружаем список программ"
-        //};
         private LoadFeed Loader;
         public episodes()
         {
@@ -39,19 +33,10 @@ namespace WindowsPhoneApplication3
 
             this.PageTitle.Text = (Application.Current as App).podcastItem.Title.Text;
  
-            Loader = new LoadFeed(this, new System.Uri((Application.Current as App).podcastItem.Links[0].Uri, "/rss/rss.xml"), LBAll);
+            Loader = new LoadFeed(this, new System.Uri((Application.Current as App).podcastItem.Links[0].Uri, "/rss/rss.xml"));
             Loader.Run();
             Loader.Loaded += new LoadFeedEvent(UpdateUI);
         }
-
-        //public void EventWorkDone(LoadFeed Loader)
-        //{
-        //    Deployment.Current.Dispatcher.BeginInvoke(() =>
-        //    {
-        //        // Bind the list of SyndicationItems to our ListBox
-        //        LBAll.ItemsSource = Loader.Feed.Items;
-        //    });
-        //}
 
         public void UpdateUI()
         {
