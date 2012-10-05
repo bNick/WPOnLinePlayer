@@ -10,13 +10,7 @@ using System.Windows.Media;
 using System.Windows.Media.Animation;
 using System.Windows.Shapes;
 using Microsoft.Phone.Controls;
-//using System.Xml.Linq;
-//using System.IO;
 using System.ServiceModel.Syndication;
-//using System.Xml;
-//using System.Windows.Data;
-//using System.Globalization;
-//using System.Text.RegularExpressions;
 using Microsoft.Phone.Shell;
 
 namespace WindowsPhoneApplication3

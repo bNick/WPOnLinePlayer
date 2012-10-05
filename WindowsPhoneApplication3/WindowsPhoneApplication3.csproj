@@ -126,12 +126,12 @@
     <Resource Include="img\habrahabr_logo.jpg" />
     <Content Include="img\Find.png" />
     <Resource Include="img\Play.png" />
-    <Content Include="podfm.program.xml" />
-    <Content Include="podfm.xml" />
-    <Content Include="radio-t.xml">
+    <Content Include="tmp\podfm.program.xml" />
+    <Content Include="tmp\podfm.xml" />
+    <Content Include="tmp\radio-t.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="rss_rpod.xml" />
+    <Content Include="tmp\rss_rpod.xml" />
     <Content Include="SplashScreenImage.jpg" />
   </ItemGroup>
   <ItemGroup>

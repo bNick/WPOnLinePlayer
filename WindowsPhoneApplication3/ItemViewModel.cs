@@ -17,6 +17,7 @@ namespace WindowsPhoneApplication3
     public class ItemViewModel : INotifyPropertyChanged
     {
         private string _category;
+        private string _count;
         /// <summary>
         /// Пример свойства ViewModel; это свойство используется в представлении для отображения его значения с помощью привязки.
         /// </summary>
@@ -36,6 +37,23 @@ namespace WindowsPhoneApplication3
                 }
             }
         }
+
+        public string Count
+        {
+            get
+            {
+                return _count;
+            }
+            set
+            {
+                if (value != _count)
+                {
+                    _count = value;
+                    NotifyPropertyChanged("Count");
+                }
+            }
+        }
+
         public event PropertyChangedEventHandler PropertyChanged;
         private void NotifyPropertyChanged(String propertyName)
         {
