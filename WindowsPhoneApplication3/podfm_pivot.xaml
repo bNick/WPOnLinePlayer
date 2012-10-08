@@ -29,8 +29,9 @@
                     <ListBox x:Name="LBRubriki" Margin="0,0,-12,0" ItemsSource="{Binding Items}" SelectionChanged="LBRubriki_SelectionChanged">
                         <ListBox.ItemTemplate>
                             <DataTemplate>
-                                <StackPanel Margin="0,0,0,17">
+                                <StackPanel Margin="0,0,0,17" Orientation="Horizontal">
                                     <TextBlock Text="{Binding Category}" TextWrapping="NoWrap" Margin="12,0,0,0" Style="{StaticResource PhoneTextExtraLargeStyle}"/>
+                                    <TextBlock Text="{Binding Count}" TextWrapping="NoWrap" Margin="12,0,0,0" Style="{StaticResource PhoneTextExtraLargeStyle}"/>                                
                                 </StackPanel>
                             </DataTemplate>
                         </ListBox.ItemTemplate>

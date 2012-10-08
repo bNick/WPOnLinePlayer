@@ -56,6 +56,7 @@ namespace WindowsPhoneApplication3
     {
         public void CreateCategories(SyndicationFeed feed)
         {
+            int counter = 0;
             foreach (var i in feed.Items)
             {
                 string name = i.Categories[0].Name;
@@ -69,8 +70,9 @@ namespace WindowsPhoneApplication3
                 {
                     cat.Count = cat.Count + 1;
                 }
-
+                counter++;
             }
+            this.Insert(0, new Items {Category = "ВСЕ", Count = counter });
         }
 
         private Items getFromList(string name)
@@ -82,5 +84,6 @@ namespace WindowsPhoneApplication3
             }
             return null;
         }
+
     }
 }
