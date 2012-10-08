@@ -23,15 +23,17 @@ namespace WindowsPhoneApplication3
     {
         public event LoadFeedEvent Loaded;
         public SyndicationFeed feed { get; set; }
-        
+        public Categories cat { get; set; }
+        public ObservableCollection<ItemViewModel> Items { get; set; }
+
         private Page _sender { get; set; }
         private Uri _uri { get; set; }
+        
 
         public LoadFeed(Page sender, Uri uri)
         {
             _uri = uri;
             _sender = sender;
-            //this.Items = new ObservableCollection<ItemViewModel>();
         }
 
         public void Run()
@@ -50,41 +52,6 @@ namespace WindowsPhoneApplication3
             IsIndeterminate = true,
             Text = "Загружаем список программ"
         };
-
-        public ObservableCollection<ItemViewModel> Items
-        {
-            get
-            {
-                this.Items = new ObservableCollection<ItemViewModel>();
-
-                this.Items.Add(new ItemViewModel() { Category = "ВСЕ" });
-                this.Items.Add(new ItemViewModel() { Category = "аудиокниги" });
-                this.Items.Add(new ItemViewModel() { Category = "аудиогиды" });
-                this.Items.Add(new ItemViewModel() { Category = "политика" });
-                this.Items.Add(new ItemViewModel() { Category = "бизнес" });
-                this.Items.Add(new ItemViewModel() { Category = "технологии" });
-                this.Items.Add(new ItemViewModel() { Category = "автомобили" });
-                this.Items.Add(new ItemViewModel() { Category = "карьера" });
-                this.Items.Add(new ItemViewModel() { Category = "наука" });
-                this.Items.Add(new ItemViewModel() { Category = "интернет" });
-                this.Items.Add(new ItemViewModel() { Category = "кино" });
-                this.Items.Add(new ItemViewModel() { Category = "культура и искуство" });
-                this.Items.Add(new ItemViewModel() { Category = "развлечения" });
-                this.Items.Add(new ItemViewModel() { Category = "путешествия" });
-                this.Items.Add(new ItemViewModel() { Category = "история" });
-                this.Items.Add(new ItemViewModel() { Category = "здоровье" });
-                this.Items.Add(new ItemViewModel() { Category = "новости" });
-                this.Items.Add(new ItemViewModel() { Category = "красота" });
-                this.Items.Add(new ItemViewModel() { Category = "спорт" });
-                this.Items.Add(new ItemViewModel() { Category = "образование" });
-
-                return this.Items;
-            }
-            //private set
-            //{
-                
-            //}
-        }
 
         // Event handler which runs after the feed is fully downloaded.
         private void webClient_DownloadStringCompleted(object sender, DownloadStringCompletedEventArgs e)
@@ -112,10 +79,19 @@ namespace WindowsPhoneApplication3
             StringReader stringReader = new StringReader(feedXML);
             XmlReader xmlReader = XmlReader.Create(stringReader);
             feed = SyndicationFeed.Load(xmlReader);
+            InitItems();
             if (feed != null)
             {
                 if (Loaded != null) Loaded();
             }
+        }
+
+        private void InitItems()
+        {
+            //From feed select and count category
+            cat = new Categories();
+
+            cat.CreateCategories(feed);
         }
     }
 }

@@ -119,6 +119,7 @@
     </Content>
     <Content Include="img\Add.png" />
     <Content Include="img\Exit.png" />
+    <Content Include="ToDo.txt" />
     <Resource Include="img\podfm_logo.jpg" />
     <Resource Include="img\rpod_logo.jpg" />
     <Resource Include="img\podfm_logo-1.jpg" />

@@ -42,7 +42,7 @@ namespace WindowsPhoneApplication3
             {
                 // Bind the list of SyndicationItems to our ListBox
                 SyndicationFeed feed = Loader.feed;
-                LBAll.ItemsSource = feed.Items;
+                LBAll.ItemsSource = feed.Items.Where(x => x.Categories[0].Name == (Application.Current as App).CategoryItem.Category);
             });
         }
 

@@ -16,7 +16,7 @@ using System.ServiceModel.Syndication;
 
 namespace WindowsPhoneApplication3
 {
-    public class Category : INotifyPropertyChanged
+    public class Items : INotifyPropertyChanged
     {
         public event PropertyChangedEventHandler PropertyChanged;
 
@@ -32,7 +32,7 @@ namespace WindowsPhoneApplication3
         }
 
         private string name;
-        public string Name
+        public string Category
         {
             get { return name; }
             set
@@ -52,17 +52,17 @@ namespace WindowsPhoneApplication3
         }
     }
 
-    public class Categories : ObservableCollection<Category>
+    public class Categories : ObservableCollection<Items>
     {
         public void CreateCategories(SyndicationFeed feed)
         {
             foreach (var i in feed.Items)
             {
                 string name = i.Categories[0].Name;
-                Category cat = getFromList(name);
+                Items cat = getFromList(name);
                 if (cat == null)
                 {
-                    cat = new Category { Name = i.Categories[0].Name, Count = 1 };
+                    cat = new Items { Category = i.Categories[0].Name, Count = 1 };
                     this.Add(cat);
                 }
                 else
@@ -73,11 +73,11 @@ namespace WindowsPhoneApplication3
             }
         }
 
-        private Category getFromList(string name)
+        private Items getFromList(string name)
         {
-            foreach (Category j in this)
+            foreach (Items j in this)
             {
-                if (j.Name == name)
+                if (j.Category == name)
                 { return j; }
             }
             return null;

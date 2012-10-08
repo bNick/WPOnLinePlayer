@@ -42,7 +42,7 @@ namespace WindowsPhoneApplication3
 
         public Uri podcastUrl { get; set; }
         public SyndicationItem podcastItem { get; set; }
-
+        public Items CategoryItem { get; set; }
 
         /// <summary>
         /// Constructor for the Application object.
