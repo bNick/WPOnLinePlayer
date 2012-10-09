@@ -79,7 +79,11 @@ namespace WindowsPhoneApplication3
             StringReader stringReader = new StringReader(feedXML);
             XmlReader xmlReader = XmlReader.Create(stringReader);
             feed = SyndicationFeed.Load(xmlReader);
-            InitItems();
+            try
+            {
+                InitItems();
+            }
+            catch { }
             if (feed != null)
             {
                 if (Loaded != null) Loaded();
