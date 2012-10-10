@@ -34,7 +34,7 @@
                     <DataTemplate>
                         <!--Второй вариант оформления-->
                         <StackPanel VerticalAlignment="Top">
-                        <Grid Grid.Row="4" Grid.Column="3">
+                        <!--<Grid Grid.Row="4" Grid.Column="3">
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="290" />
                                 <ColumnDefinition Width="104" />
@@ -64,7 +64,33 @@
                                 TextWrapping="Wrap" Margin="12,0,0,0" Text="{Binding Summary.Text, Converter={StaticResource RssTextTrimmer}}" />
                             <Image Source="img/Add.png" Grid.Row="1" Grid.Column="2" Margin="12,12,0,0" HorizontalAlignment="Right" VerticalAlignment="Bottom"/>
                             <Image Source="img/Play.png" Grid.Row="2" Grid.Column="2" Margin="12,12,0,0" HorizontalAlignment="Right" VerticalAlignment="Bottom"/>
-                        </Grid>
+                        </Grid>-->
+                            <Grid Grid.Row="3" Grid.Column="2" Height="90">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="100" />
+                                    <ColumnDefinition Width="350" />
+                                    
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto" />
+                                    <RowDefinition Height="*" />
+                                    <RowDefinition Height="Auto" />
+                                    
+                                </Grid.RowDefinitions>
+                                <Image Width="43" Height="48" Grid.Row="0" Grid.Column="0" Grid.RowSpan="3" Source="img/defaultw.png"/>
+                                <TextBlock 
+                                    Grid.Row="0" Grid.Column="1"
+                                    TextDecorations="Underline" 
+                                    FontSize="24" 
+                                    Margin="12,0,0,0" 
+                                    HorizontalAlignment="Left" 
+                                    Foreground="{StaticResource PhoneAccentBrush}" 
+                                    Text="{Binding Title.Text, Converter={StaticResource RssTextTrimmer}}" />
+                                <TextBlock
+                                    TextWrapping="Wrap"
+                                    Grid.Row="1" Grid.Column="1"
+                                    Margin="12,0,0,0" Text="{Binding Summary.Text, Converter={StaticResource RssTextTrimmer}}" />
+                            </Grid>
                         </StackPanel>
                     </DataTemplate>
                 </ListBox.ItemTemplate>

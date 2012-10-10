@@ -117,7 +117,9 @@
     <Content Include="Background.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Resource Include="img\default.png" />
     <Content Include="img\Add.png" />
+    <Resource Include="img\defaultw.png" />
     <Content Include="img\Exit.png" />
     <Content Include="ToDo.txt" />
     <Resource Include="img\podfm_logo.jpg" />
