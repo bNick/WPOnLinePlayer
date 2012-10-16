@@ -27,22 +27,40 @@ namespace WindowsPhoneApplication3
         public ObservableCollection<ItemViewModel> Items { get; set; }
 
         private Page _sender { get; set; }
-        private Uri _uri { get; set; }
+        private string _uri { get; set; }
         
 
-        public LoadFeed(Page sender, Uri uri)
+        public LoadFeed(Page sender, string uri)
         {
             _uri = uri;
             _sender = sender;
         }
 
-        public void Run()
+        public void Programs()
+        {
+            const string uri = "http://podfm.ru/rss/programs/rss.xml";
+
+            Download(uri);
+        }
+
+        private void Download(string uri)
         {
             SystemTray.SetProgressIndicator(_sender, progressIndicator);
 
             WebClient webClient = new WebClient();
             webClient.DownloadStringCompleted += new DownloadStringCompletedEventHandler(webClient_DownloadStringCompleted);
-            webClient.DownloadStringAsync(_uri);
+            webClient.DownloadStringAsync(new System.Uri(uri));
+        }
+
+        public void Run()
+        {
+            Download(_uri);
+            
+            //SystemTray.SetProgressIndicator(_sender, progressIndicator);
+
+            //WebClient webClient = new WebClient();
+            //webClient.DownloadStringCompleted += new DownloadStringCompletedEventHandler(webClient_DownloadStringCompleted);
+            //webClient.DownloadStringAsync(_uri);
         }
 
         

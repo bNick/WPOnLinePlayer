@@ -1,0 +1,70 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="WindowsPhoneApplication3.podfm_pivote"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:controls="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="696"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot представляет корневую сетку, где размещается все содержимое страницы-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <!--Элемент управления Pivot-->
+        <controls:Pivot Title="OnLine PLAYER (PODFM.RU)">
+            <!--Второй элемент Pivot-->
+            <controls:PivotItem Header="Избранное">
+                <Grid/>
+            </controls:PivotItem>
+
+            <!--Первый элемент Pivot-->
+            <controls:PivotItem Header="Рубрики">               
+                <Grid>
+                    <ListBox x:Name="LBRubriki" Margin="0,0,-12,0" ItemsSource="{Binding Items}" SelectionChanged="LBRubriki_SelectionChanged">
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel Margin="0,0,0,17" Orientation="Horizontal">
+                                    <TextBlock Text="{Binding Category}" TextWrapping="NoWrap" Margin="12,0,0,0" Style="{StaticResource PhoneTextExtraLargeStyle}"/>
+                                    <TextBlock Text="{Binding Count}" TextWrapping="NoWrap" Margin="12,0,0,0" Style="{StaticResource PhoneTextExtraLargeStyle}"/>                                
+                                </StackPanel>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+                </Grid>
+            </controls:PivotItem>
+
+            <!--Второй элемент Pivot-->
+            <controls:PivotItem Header="В эфире">
+                <Grid/>
+            </controls:PivotItem>
+
+            <!--Третий элемент Pivot-->
+            <controls:PivotItem Header="Рекомендованные">
+                <Grid/>
+            </controls:PivotItem>
+
+            <!--Четвертый элемент Pivot-->
+            <controls:PivotItem Header="Популярные">
+                <Grid/>
+            </controls:PivotItem>
+        </controls:Pivot>
+    </Grid>
+
+    <!--Пример кода, иллюстрирующий использование ApplicationBar-->
+    <phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True">
+            <shell:ApplicationBarIconButton x:Name="appbar_button1" IconUri="/img/find.png" Text="Поиск"/>
+            <!--<shell:ApplicationBar.MenuItems>
+                <shell:ApplicationBarMenuItem x:Name="menuItem1" Text="Элемент меню 1"/>
+                <shell:ApplicationBarMenuItem x:Name="menuItem2" Text="Элемент меню 2"/>
+            </shell:ApplicationBar.MenuItems>-->
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>
+    
+</phone:PhoneApplicationPage>

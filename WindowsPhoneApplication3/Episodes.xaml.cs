@@ -33,7 +33,7 @@ namespace WindowsPhoneApplication3
 
             this.PageTitle.Text = (Application.Current as App).podcastItem.Title.Text;
  
-            Loader = new LoadFeed(this, new System.Uri((Application.Current as App).podcastItem.Links[0].Uri, "/rss/rss.xml"));
+            Loader = new LoadFeed(this, String.Concat((Application.Current as App).podcastItem.Links[0].Uri, "/rss/rss.xml"));
             Loader.Run();
             Loader.Loaded += new LoadFeedEvent(UpdateUI);
         }
@@ -56,17 +56,40 @@ namespace WindowsPhoneApplication3
             }
             else
             {
-                SyndicationItem podcastItem = (SyndicationItem)LBAll.SelectedItem;
+                SyndicationItem podcast = (SyndicationItem)LBAll.SelectedItem;
                 List<string> track = new List<string>();
-                track.Add(podcastItem.Links[1].Uri.ToString());
-                track.Add(podcastItem.Title.Text);
+                track.Add(podcast.Links[1].Uri.ToString());
+                track.Add(podcast.Title.Text);
                 track.Add("Windows Phone Radio");
                 track.Add("Windows Phone Radio Podcast");
 
                 SerializeToIsolatedStorage<List<string>>(track, "podcast.link");
+                SaveToFavorite((Application.Current as App).podcastItem);
                 BackgroundAudioPlayer.Instance.Play();
             }
         }
+
+        private void SaveToFavorite(SyndicationItem PodcastFeed)
+        {
+
+            SerializeToIsolatedStorage<SyndicationItem>(PodcastFeed, "favorite.link");
+        }
+
+        //private void SerializeToIsolatedStorage<T1>(SyndicationItem obj, string filename)
+        //{
+        //    //throw new NotImplementedException();
+        //    if ((obj == null) || string.IsNullOrEmpty(filename))
+        //    {
+        //        return;
+        //    }
+
+        //    using (var store = IsolatedStorageFile.GetUserStoreForApplication())
+        //    using (var stream = store.CreateFile(filename))
+        //    using (var writer = XmlWriter.Create(stream))
+        //    {
+        //        new XmlSerializer(obj.GetType()).Serialize(writer, obj);
+        //    }
+        //}
 
         private static void SerializeToIsolatedStorage<T>(T obj, string filename)
         {
