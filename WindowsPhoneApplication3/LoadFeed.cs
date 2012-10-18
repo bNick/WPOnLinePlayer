@@ -27,7 +27,7 @@ namespace WindowsPhoneApplication3
         public event LoadFeedEvent Loaded;
         public SyndicationFeed feed { get; set; }
         public Categories cat { get; set; }
-        public ObservableCollection<ItemViewModel> Items { get; set; }
+        public ObservableCollection<_ItemViewModel> Items { get; set; }
 
         private Page _sender { get; set; }
         private string _uri { get; set; }
@@ -64,12 +64,6 @@ namespace WindowsPhoneApplication3
         public void Run()
         {
             Download(_uri);
-            
-            //SystemTray.SetProgressIndicator(_sender, progressIndicator);
-
-            //WebClient webClient = new WebClient();
-            //webClient.DownloadStringCompleted += new DownloadStringCompletedEventHandler(webClient_DownloadStringCompleted);
-            //webClient.DownloadStringAsync(_uri);
         }
 
         
@@ -125,16 +119,16 @@ namespace WindowsPhoneApplication3
             cat.CreateCategories(feed);
         }
 
-        internal System.Collections.Generic.List<FavPodcats> Favorites()
+        internal FavPodcasts Favorites()
         {
-            List<FavPodcats> podcastTitle = new List<FavPodcats>();
+            FavPodcasts podcastTitle = new FavPodcasts();
             using (IsolatedStorageFile storage = IsolatedStorageFile.GetUserStoreForApplication())
                 if (storage.FileExists("Favorite.xml"))
                 {
                     using (IsolatedStorageFileStream stream = storage.OpenFile("Favorite.xml", FileMode.Open))
                     {
-                        XmlSerializer xml = new XmlSerializer(typeof(List<FavPodcats>));
-                        podcastTitle = xml.Deserialize(stream) as List<FavPodcats>;
+                        XmlSerializer xml = new XmlSerializer(typeof(FavPodcasts));
+                        podcastTitle = xml.Deserialize(stream) as FavPodcasts;
                         stream.Close();
                     }
                 }

@@ -72,11 +72,12 @@ namespace WindowsPhoneApplication3
         private void SaveToFavorite(SyndicationItem podcastTitle)
         {
 
-            List<FavPodcats> titles = new List<FavPodcats>();
-            FavPodcats favPodcastsItem = new FavPodcats();
+            FavPodcasts titles = new FavPodcasts();
+            FavPodcastsItem favPodcastsItem = new FavPodcastsItem();
             favPodcastsItem.Title = podcastTitle.Title.Text;
             favPodcastsItem.Description = podcastTitle.Summary.Text;
             favPodcastsItem.Count = 1;
+            favPodcastsItem.Uri = String.Concat(podcastTitle.Links[0].Uri, "/rss/rss.xml");
             
             //SerializeToIsolatedStorage<SyndicationItem>(PodcastFeed, "favorite.link");
             using (var store = IsolatedStorageFile.GetUserStoreForApplication())
@@ -85,22 +86,22 @@ namespace WindowsPhoneApplication3
                 {
                     using (IsolatedStorageFileStream stream = store.OpenFile("Favorite.xml", FileMode.Open))
                     {
-                        XmlSerializer xml = new XmlSerializer(typeof(List<FavPodcats>));
-                        titles = xml.Deserialize(stream) as List<FavPodcats>;
+                        XmlSerializer xml = new XmlSerializer(typeof(FavPodcasts));
+                        titles = xml.Deserialize(stream) as FavPodcasts;
                         stream.Close();
                     }
                     
-                    titles.Add(favPodcastsItem);
+                    titles.AddFavItem(favPodcastsItem);
                 }
                 else
                 {
-                    titles.Add(favPodcastsItem);
+                    titles.AddFavItem(favPodcastsItem);
 
                 }
                 using (var fileStream = store.CreateFile("Favorite.xml"))
                 using (var writer = new StreamWriter(fileStream))
                 {
-                    XmlSerializer ser = new XmlSerializer(typeof(List<FavPodcats>));
+                    XmlSerializer ser = new XmlSerializer(typeof(FavPodcasts));
                     ser.Serialize(writer, titles);
                     writer.Close();
                 }

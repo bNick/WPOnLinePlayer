@@ -70,9 +70,10 @@
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
     <Compile Include="Categories.cs" />
-    <Compile Include="ItemViewModel.cs" />
+    <Compile Include="FavPodcast.cs" />
+    <Compile Include="tmp\__ItemViewModel.cs" />
     <Compile Include="LoadFeed.cs" />
-    <Compile Include="MainViewModel.cs" />
+    <Compile Include="tmp\__MainViewModel.cs" />
     <Compile Include="Episodes.xaml.cs">
       <DependentUpon>Episodes.xaml</DependentUpon>
     </Compile>

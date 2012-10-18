@@ -14,7 +14,7 @@ using System.ComponentModel;
 
 namespace WindowsPhoneApplication3
 {
-    public class ItemViewModel : INotifyPropertyChanged
+    public class _ItemViewModel : INotifyPropertyChanged
     {
         private string _category;
         private string _count;

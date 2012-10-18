@@ -30,7 +30,7 @@ namespace WindowsPhoneApplication3
             Loader.Loaded += new LoadFeedEvent(UpdateUI);
         }
 
-        private void UpdateFav(List<FavPodcats> podcastTitle)
+        private void UpdateFav(FavPodcasts podcastTitle)
         {
             LBFav.ItemsSource = podcastTitle;
         }
@@ -45,11 +45,6 @@ namespace WindowsPhoneApplication3
                 
         private void LBRubriki_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            //if (LBRubriki.SelectedIndex == 0)
-            //{
-            //    (Application.Current as App).CategoryItem = (Items)LBRubriki.SelectedItem;
-            //    NavigationService.Navigate(new Uri("/podfmpodcastlist.xaml", UriKind.Relative));
-            //}
             (Application.Current as App).CategoryItem = (Items)LBRubriki.SelectedItem;
             NavigationService.Navigate(new Uri("/podfmpodcastlist.xaml", UriKind.Relative));
         }
