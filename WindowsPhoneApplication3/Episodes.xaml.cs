@@ -64,15 +64,19 @@ namespace WindowsPhoneApplication3
                 track.Add("Windows Phone Radio Podcast");
 
                 SerializeToIsolatedStorage<List<string>>(track, "podcast.link");
-                SaveToFavorite((Application.Current as App).podcastItem.Title.Text);
+                SaveToFavorite((Application.Current as App).podcastItem);
                 BackgroundAudioPlayer.Instance.Play();
             }
         }
 
-        private void SaveToFavorite(string podcastTitle)
+        private void SaveToFavorite(SyndicationItem podcastTitle)
         {
 
-            List<string> titles = new List<string>();
+            List<FavPodcats> titles = new List<FavPodcats>();
+            FavPodcats favPodcastsItem = new FavPodcats();
+            favPodcastsItem.Title = podcastTitle.Title.Text;
+            favPodcastsItem.Description = podcastTitle.Summary.Text;
+            favPodcastsItem.Count = 1;
             
             //SerializeToIsolatedStorage<SyndicationItem>(PodcastFeed, "favorite.link");
             using (var store = IsolatedStorageFile.GetUserStoreForApplication())
@@ -81,21 +85,22 @@ namespace WindowsPhoneApplication3
                 {
                     using (IsolatedStorageFileStream stream = store.OpenFile("Favorite.xml", FileMode.Open))
                     {
-                        XmlSerializer xml = new XmlSerializer(typeof(List<string>));
-                        titles = xml.Deserialize(stream) as List<string>;
+                        XmlSerializer xml = new XmlSerializer(typeof(List<FavPodcats>));
+                        titles = xml.Deserialize(stream) as List<FavPodcats>;
                         stream.Close();
                     }
-                    titles.Add(podcastTitle);
+                    
+                    titles.Add(favPodcastsItem);
                 }
                 else
                 {
-                    titles.Add(podcastTitle);
+                    titles.Add(favPodcastsItem);
 
                 }
                 using (var fileStream = store.CreateFile("Favorite.xml"))
                 using (var writer = new StreamWriter(fileStream))
                 {
-                    XmlSerializer ser = new XmlSerializer(typeof(List<string>));
+                    XmlSerializer ser = new XmlSerializer(typeof(List<FavPodcats>));
                     ser.Serialize(writer, titles);
                     writer.Close();
                 }

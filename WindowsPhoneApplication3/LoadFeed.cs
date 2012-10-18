@@ -125,16 +125,16 @@ namespace WindowsPhoneApplication3
             cat.CreateCategories(feed);
         }
 
-        internal System.Collections.Generic.List<string> Favorites()
+        internal System.Collections.Generic.List<FavPodcats> Favorites()
         {
-            List<string> podcastTitle = new List<string>();
+            List<FavPodcats> podcastTitle = new List<FavPodcats>();
             using (IsolatedStorageFile storage = IsolatedStorageFile.GetUserStoreForApplication())
                 if (storage.FileExists("Favorite.xml"))
                 {
                     using (IsolatedStorageFileStream stream = storage.OpenFile("Favorite.xml", FileMode.Open))
                     {
-                        XmlSerializer xml = new XmlSerializer(typeof(List<string>));
-                        podcastTitle = xml.Deserialize(stream) as List<string>;
+                        XmlSerializer xml = new XmlSerializer(typeof(List<FavPodcats>));
+                        podcastTitle = xml.Deserialize(stream) as List<FavPodcats>;
                         stream.Close();
                     }
                 }

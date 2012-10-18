@@ -30,7 +30,7 @@ namespace WindowsPhoneApplication3
             Loader.Loaded += new LoadFeedEvent(UpdateUI);
         }
 
-        private void UpdateFav(List<string> podcastTitle)
+        private void UpdateFav(List<FavPodcats> podcastTitle)
         {
             LBFav.ItemsSource = podcastTitle;
         }

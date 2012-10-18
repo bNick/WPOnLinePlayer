@@ -16,6 +16,13 @@ using System.Collections.ObjectModel;
 
 namespace WindowsPhoneApplication3
 {
+    public class FavPodcats
+    {
+        public string Title { get; set; }
+        public int Count { get; set; }
+        public string Description { get; set; }
+    }
+
     public class MainViewModel : INotifyPropertyChanged
     {
         public MainViewModel()
