@@ -1,19 +1,19 @@
-﻿<xapCache source="C:\Users\Николай\Documents\GitHub\WPOnLinePlayer\WindowsPhoneApplication3\Bin\Debug\WindowsPhoneApplication3.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="17.10.2012 22:12:00">
-  <file source="C:\Users\Николай\Documents\GitHub\WPOnLinePlayer\WindowsPhoneApplication3\Bin\Debug\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="10.10.2012 15:07:26" />
-  <file source="C:\Users\Николай\Documents\GitHub\WPOnLinePlayer\WindowsPhoneApplication3\Background.png" archivePath="Background.png" lastWriteTime="10.10.2012 15:07:26" />
-  <file source="C:\Users\Николай\Documents\GitHub\WPOnLinePlayer\WindowsPhoneApplication3\ApplicationIcon.png" archivePath="ApplicationIcon.png" lastWriteTime="10.10.2012 15:07:26" />
-  <file source="C:\Users\Николай\Documents\GitHub\WPOnLinePlayer\WindowsPhoneApplication3\obj\Debug\WindowsPhoneApplication3.dll" archivePath="WindowsPhoneApplication3.dll" lastWriteTime="17.10.2012 22:11:58" />
-  <file source="C:\Users\Николай\Documents\GitHub\WPOnLinePlayer\AudioPlaybackAgent1\Bin\Debug\AudioPlaybackAgent1.dll" archivePath="AudioPlaybackAgent1.dll" lastWriteTime="10.10.2012 19:14:08" />
-  <file source="C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v7.1\Libraries\Silverlight\Microsoft.Phone.Controls.dll" archivePath="Microsoft.Phone.Controls.dll" lastWriteTime="29.08.2011 22:49:08" />
+﻿<xapCache source="C:\Users\nick\Documents\GitHub\WPOnLinePlayer\WindowsPhoneApplication3\Bin\Debug\WindowsPhoneApplication3.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="18.10.2012 10:16:42">
+  <file source="C:\Users\nick\Documents\GitHub\WPOnLinePlayer\WindowsPhoneApplication3\Bin\Debug\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="15.10.2012 13:28:53" />
+  <file source="C:\Users\nick\Documents\GitHub\WPOnLinePlayer\WindowsPhoneApplication3\Background.png" archivePath="Background.png" lastWriteTime="15.10.2012 13:28:53" />
+  <file source="C:\Users\nick\Documents\GitHub\WPOnLinePlayer\WindowsPhoneApplication3\ApplicationIcon.png" archivePath="ApplicationIcon.png" lastWriteTime="15.10.2012 13:28:53" />
+  <file source="C:\Users\nick\Documents\GitHub\WPOnLinePlayer\WindowsPhoneApplication3\obj\Debug\WindowsPhoneApplication3.dll" archivePath="WindowsPhoneApplication3.dll" lastWriteTime="18.10.2012 10:16:41" />
+  <file source="C:\Users\nick\Documents\GitHub\WPOnLinePlayer\AudioPlaybackAgent1\Bin\Debug\AudioPlaybackAgent1.dll" archivePath="AudioPlaybackAgent1.dll" lastWriteTime="15.10.2012 14:13:46" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v7.1\Libraries\Silverlight\Microsoft.Phone.Controls.dll" archivePath="Microsoft.Phone.Controls.dll" lastWriteTime="29.08.2011 23:49:08" />
   <file source="C:\Program Files (x86)\Microsoft SDKs\Silverlight\v4.0\Libraries\Client\System.ServiceModel.Syndication.dll" archivePath="System.ServiceModel.Syndication.dll" lastWriteTime="10.03.2011 0:08:16" />
-  <file source="C:\Users\Николай\Documents\GitHub\WPOnLinePlayer\WindowsPhoneApplication3\img\Add.png" archivePath="img\Add.png" lastWriteTime="10.10.2012 15:07:27" />
-  <file source="C:\Users\Николай\Documents\GitHub\WPOnLinePlayer\WindowsPhoneApplication3\img\Exit.png" archivePath="img\Exit.png" lastWriteTime="10.10.2012 15:07:27" />
-  <file source="C:\Users\Николай\Documents\GitHub\WPOnLinePlayer\WindowsPhoneApplication3\ToDo.txt" archivePath="ToDo.txt" lastWriteTime="10.10.2012 15:07:27" />
-  <file source="C:\Users\Николай\Documents\GitHub\WPOnLinePlayer\WindowsPhoneApplication3\img\Find.png" archivePath="img\Find.png" lastWriteTime="10.10.2012 15:07:27" />
-  <file source="C:\Users\Николай\Documents\GitHub\WPOnLinePlayer\WindowsPhoneApplication3\tmp\podfm.program.xml" archivePath="tmp\podfm.program.xml" lastWriteTime="10.10.2012 15:07:27" />
-  <file source="C:\Users\Николай\Documents\GitHub\WPOnLinePlayer\WindowsPhoneApplication3\tmp\podfm.xml" archivePath="tmp\podfm.xml" lastWriteTime="10.10.2012 15:07:27" />
-  <file source="C:\Users\Николай\Documents\GitHub\WPOnLinePlayer\WindowsPhoneApplication3\tmp\radio-t.xml" archivePath="tmp\radio-t.xml" lastWriteTime="10.10.2012 15:07:27" />
-  <file source="C:\Users\Николай\Documents\GitHub\WPOnLinePlayer\WindowsPhoneApplication3\tmp\rss_rpod.xml" archivePath="tmp\rss_rpod.xml" lastWriteTime="10.10.2012 15:07:27" />
-  <file source="C:\Users\Николай\Documents\GitHub\WPOnLinePlayer\WindowsPhoneApplication3\SplashScreenImage.jpg" archivePath="SplashScreenImage.jpg" lastWriteTime="10.10.2012 15:07:27" />
-  <file source="C:\Users\Николай\Documents\GitHub\WPOnLinePlayer\WindowsPhoneApplication3\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="10.10.2012 19:14:12" />
+  <file source="C:\Users\nick\Documents\GitHub\WPOnLinePlayer\WindowsPhoneApplication3\img\Add.png" archivePath="img\Add.png" lastWriteTime="15.10.2012 13:28:54" />
+  <file source="C:\Users\nick\Documents\GitHub\WPOnLinePlayer\WindowsPhoneApplication3\img\Exit.png" archivePath="img\Exit.png" lastWriteTime="15.10.2012 13:28:54" />
+  <file source="C:\Users\nick\Documents\GitHub\WPOnLinePlayer\WindowsPhoneApplication3\ToDo.txt" archivePath="ToDo.txt" lastWriteTime="15.10.2012 13:28:54" />
+  <file source="C:\Users\nick\Documents\GitHub\WPOnLinePlayer\WindowsPhoneApplication3\img\Find.png" archivePath="img\Find.png" lastWriteTime="15.10.2012 13:28:54" />
+  <file source="C:\Users\nick\Documents\GitHub\WPOnLinePlayer\WindowsPhoneApplication3\tmp\podfm.program.xml" archivePath="tmp\podfm.program.xml" lastWriteTime="15.10.2012 13:28:54" />
+  <file source="C:\Users\nick\Documents\GitHub\WPOnLinePlayer\WindowsPhoneApplication3\tmp\podfm.xml" archivePath="tmp\podfm.xml" lastWriteTime="15.10.2012 13:28:54" />
+  <file source="C:\Users\nick\Documents\GitHub\WPOnLinePlayer\WindowsPhoneApplication3\tmp\radio-t.xml" archivePath="tmp\radio-t.xml" lastWriteTime="15.10.2012 13:28:54" />
+  <file source="C:\Users\nick\Documents\GitHub\WPOnLinePlayer\WindowsPhoneApplication3\tmp\rss_rpod.xml" archivePath="tmp\rss_rpod.xml" lastWriteTime="15.10.2012 13:28:54" />
+  <file source="C:\Users\nick\Documents\GitHub\WPOnLinePlayer\WindowsPhoneApplication3\SplashScreenImage.jpg" archivePath="SplashScreenImage.jpg" lastWriteTime="15.10.2012 13:28:54" />
+  <file source="C:\Users\nick\Documents\GitHub\WPOnLinePlayer\WindowsPhoneApplication3\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="15.10.2012 14:13:49" />
 </xapCache>

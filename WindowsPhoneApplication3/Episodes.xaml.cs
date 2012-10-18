@@ -73,15 +73,32 @@ namespace WindowsPhoneApplication3
         {
 
             List<string> titles = new List<string>();
-            titles.Add(podcastTitle);
+            
             //SerializeToIsolatedStorage<SyndicationItem>(PodcastFeed, "favorite.link");
             using (var store = IsolatedStorageFile.GetUserStoreForApplication())
-            using (var fileStream = store.CreateFile("Favorite.xml"))
-            using (var writer = new StreamWriter(fileStream))
-            { 
-                XmlSerializer ser = new XmlSerializer(typeof(List<string>));
-                ser.Serialize(writer, titles);
-                writer.Close();
+            {
+                if (store.FileExists("Favorite.xml"))
+                {
+                    using (IsolatedStorageFileStream stream = store.OpenFile("Favorite.xml", FileMode.Open))
+                    {
+                        XmlSerializer xml = new XmlSerializer(typeof(List<string>));
+                        titles = xml.Deserialize(stream) as List<string>;
+                        stream.Close();
+                    }
+                    titles.Add(podcastTitle);
+                }
+                else
+                {
+                    titles.Add(podcastTitle);
+
+                }
+                using (var fileStream = store.CreateFile("Favorite.xml"))
+                using (var writer = new StreamWriter(fileStream))
+                {
+                    XmlSerializer ser = new XmlSerializer(typeof(List<string>));
+                    ser.Serialize(writer, titles);
+                    writer.Close();
+                }
             }
         }
 
