@@ -12,6 +12,7 @@ using System.Windows.Shapes;
 using Microsoft.Phone.Controls;
 
 using System.Collections.ObjectModel;
+using System.ServiceModel.Syndication;
 
 namespace WindowsPhoneApplication3
 {
@@ -32,7 +33,7 @@ namespace WindowsPhoneApplication3
 
         private void UpdateFav(FavPodcasts podcastTitle)
         {
-            LBFav.ItemsSource = podcastTitle;
+            LBFav.ItemsSource = podcastTitle.OrderBy(x => x.Count).Reverse();
         }
         
         public void UpdateUI()
@@ -47,6 +48,14 @@ namespace WindowsPhoneApplication3
         {
             (Application.Current as App).CategoryItem = (Items)LBRubriki.SelectedItem;
             NavigationService.Navigate(new Uri("/podfmpodcastlist.xaml", UriKind.Relative));
+        }
+
+        private void LBFav_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            SyndicationItem lbFavItem = new SyndicationItem();
+            FavPodcastsItem i = (FavPodcastsItem)LBFav.SelectedItem;
+            lbFavItem.Summary = i.Description;
+
         }
     }
 }
