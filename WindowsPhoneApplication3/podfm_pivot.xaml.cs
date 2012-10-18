@@ -23,11 +23,18 @@ namespace WindowsPhoneApplication3
         {
             InitializeComponent();
             
-            Loader = new LoadFeed(this, "http://podfm.ru/rss/programs/rss.xml");
-            Loader.Run();
+            //Loader = new LoadFeed(this, "http://podfm.ru/rss/programs/rss.xml");
+            Loader = new LoadFeed(this);
+            UpdateFav(Loader.Favorites());
+            Loader.Programs();
             Loader.Loaded += new LoadFeedEvent(UpdateUI);
         }
 
+        private void UpdateFav(List<string> podcastTitle)
+        {
+            LBFav.ItemsSource = podcastTitle;
+        }
+        
         public void UpdateUI()
         {
             Deployment.Current.Dispatcher.BeginInvoke(() =>

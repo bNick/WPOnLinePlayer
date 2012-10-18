@@ -20,7 +20,18 @@
         <controls:Pivot Title="OnLine PLAYER (PODFM.RU)">
             <!--Второй элемент Pivot-->
             <controls:PivotItem Header="Избранное">
-                <Grid/>
+                <Grid>
+                    <ListBox x:Name="LBFav" Margin="0,0,-12,0">
+                        <!--<ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel Margin="0,0,0,17" Orientation="Horizontal">
+                                    <TextBlock Text="{Binding Category}" TextWrapping="NoWrap" Margin="12,0,0,0" Style="{StaticResource PhoneTextExtraLargeStyle}"/>
+                                    
+                                </StackPanel>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>-->
+                    </ListBox>
+                </Grid>
             </controls:PivotItem>
 
             <!--Первый элемент Pivot-->

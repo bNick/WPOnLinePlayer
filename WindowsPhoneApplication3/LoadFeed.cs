@@ -14,6 +14,9 @@ using System.ServiceModel.Syndication;
 using System.IO;
 using System.Xml;
 using System.Collections.ObjectModel;
+using System.Collections.Generic;
+using System.IO.IsolatedStorage;
+using System.Xml.Serialization;
 
 namespace WindowsPhoneApplication3
 {
@@ -33,6 +36,12 @@ namespace WindowsPhoneApplication3
         public LoadFeed(Page sender, string uri)
         {
             _uri = uri;
+            _sender = sender;
+        }
+
+        public LoadFeed(Page sender)
+        {
+            //_uri = uri;
             _sender = sender;
         }
 
@@ -114,6 +123,22 @@ namespace WindowsPhoneApplication3
             cat = new Categories();
 
             cat.CreateCategories(feed);
+        }
+
+        internal System.Collections.Generic.List<string> Favorites()
+        {
+            List<string> podcastTitle = new List<string>();
+            using (IsolatedStorageFile storage = IsolatedStorageFile.GetUserStoreForApplication())
+                if (storage.FileExists("Favorite.xml"))
+                {
+                    using (IsolatedStorageFileStream stream = storage.OpenFile("Favorite.xml", FileMode.Open))
+                    {
+                        XmlSerializer xml = new XmlSerializer(typeof(List<string>));
+                        podcastTitle = xml.Deserialize(stream) as List<string>;
+                        stream.Close();
+                    }
+                }
+            return podcastTitle;
         }
     }
 }

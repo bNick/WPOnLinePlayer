@@ -64,32 +64,26 @@ namespace WindowsPhoneApplication3
                 track.Add("Windows Phone Radio Podcast");
 
                 SerializeToIsolatedStorage<List<string>>(track, "podcast.link");
-                SaveToFavorite((Application.Current as App).podcastItem);
+                SaveToFavorite((Application.Current as App).podcastItem.Title.Text);
                 BackgroundAudioPlayer.Instance.Play();
             }
         }
 
-        private void SaveToFavorite(SyndicationItem PodcastFeed)
+        private void SaveToFavorite(string podcastTitle)
         {
 
-            SerializeToIsolatedStorage<SyndicationItem>(PodcastFeed, "favorite.link");
+            List<string> titles = new List<string>();
+            titles.Add(podcastTitle);
+            //SerializeToIsolatedStorage<SyndicationItem>(PodcastFeed, "favorite.link");
+            using (var store = IsolatedStorageFile.GetUserStoreForApplication())
+            using (var fileStream = store.CreateFile("Favorite.xml"))
+            using (var writer = new StreamWriter(fileStream))
+            { 
+                XmlSerializer ser = new XmlSerializer(typeof(List<string>));
+                ser.Serialize(writer, titles);
+                writer.Close();
+            }
         }
-
-        //private void SerializeToIsolatedStorage<T1>(SyndicationItem obj, string filename)
-        //{
-        //    //throw new NotImplementedException();
-        //    if ((obj == null) || string.IsNullOrEmpty(filename))
-        //    {
-        //        return;
-        //    }
-
-        //    using (var store = IsolatedStorageFile.GetUserStoreForApplication())
-        //    using (var stream = store.CreateFile(filename))
-        //    using (var writer = XmlWriter.Create(stream))
-        //    {
-        //        new XmlSerializer(obj.GetType()).Serialize(writer, obj);
-        //    }
-        //}
 
         private static void SerializeToIsolatedStorage<T>(T obj, string filename)
         {
